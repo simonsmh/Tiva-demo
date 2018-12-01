@@ -1,0 +1,11 @@
+.\i2c.o: ..\driverlib\i2c.c
+.\i2c.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\i2c.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\i2c.o: ..\..\SDcard\inc/hw_i2c.h
+.\i2c.o: ..\..\SDcard\inc/hw_ints.h
+.\i2c.o: ..\..\SDcard\inc/hw_memmap.h
+.\i2c.o: ..\..\SDcard\inc/hw_sysctl.h
+.\i2c.o: ..\..\SDcard\inc/hw_types.h
+.\i2c.o: ..\..\SDcard\driverlib/debug.h
+.\i2c.o: ..\..\SDcard\driverlib/i2c.h
+.\i2c.o: ..\..\SDcard\driverlib/interrupt.h

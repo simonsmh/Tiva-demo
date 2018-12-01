@@ -1,0 +1,15 @@
+.\uartstdio.o: ..\utils\uartstdio.c
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdarg.h
+.\uartstdio.o: ..\..\Potentiometer\inc/hw_ints.h
+.\uartstdio.o: ..\..\Potentiometer\inc/hw_memmap.h
+.\uartstdio.o: ..\..\Potentiometer\inc/hw_types.h
+.\uartstdio.o: ..\..\Potentiometer\inc/hw_uart.h
+.\uartstdio.o: ..\..\Potentiometer\driverlib/debug.h
+.\uartstdio.o: ..\..\Potentiometer\driverlib/interrupt.h
+.\uartstdio.o: ..\..\Potentiometer\driverlib/rom.h
+.\uartstdio.o: ..\..\Potentiometer\driverlib/rom_map.h
+.\uartstdio.o: ..\..\Potentiometer\driverlib/sysctl.h
+.\uartstdio.o: ..\..\Potentiometer\driverlib/uart.h
+.\uartstdio.o: ..\..\Potentiometer\utils/uartstdio.h

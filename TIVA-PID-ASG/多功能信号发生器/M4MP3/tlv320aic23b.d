@@ -1,0 +1,9 @@
+.\tlv320aic23b.o: tlv320aic23b.c
+.\tlv320aic23b.o: inc/hw_memmap.h
+.\tlv320aic23b.o: inc/hw_types.h
+.\tlv320aic23b.o: tlv320aic23b.h
+.\tlv320aic23b.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\tlv320aic23b.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\tlv320aic23b.o: driverlib/gpio.h
+.\tlv320aic23b.o: driverlib/i2c.h
+.\tlv320aic23b.o: driverlib/sysctl.h

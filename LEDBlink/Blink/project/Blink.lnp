@@ -1,0 +1,5 @@
+--cpu Cortex-M4.fp "main.o" C:\ARM_Tiva\TIVA-demo\LEDBlink\Blink\driverlib\driverlib.lib ".\startup_rvmdk.o" 
+--strict --scatter "Blink.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Blink.map" -o Blink.axf

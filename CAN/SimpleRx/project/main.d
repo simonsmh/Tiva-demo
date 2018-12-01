@@ -1,0 +1,15 @@
+.\main.o: ..\user\main.c
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: ..\..\SimpleRx\inc/hw_can.h
+.\main.o: ..\..\SimpleRx\inc/hw_ints.h
+.\main.o: ..\..\SimpleRx\inc/hw_memmap.h
+.\main.o: ..\..\SimpleRx\inc/hw_types.h
+.\main.o: ..\..\SimpleRx\driverlib/can.h
+.\main.o: ..\..\SimpleRx\driverlib/gpio.h
+.\main.o: ..\..\SimpleRx\driverlib/interrupt.h
+.\main.o: ..\..\SimpleRx\driverlib/pin_map.h
+.\main.o: ..\..\SimpleRx\driverlib/sysctl.h
+.\main.o: ..\..\SimpleRx\driverlib/uart.h
+.\main.o: ..\..\SimpleRx\utils/uartstdio.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdarg.h

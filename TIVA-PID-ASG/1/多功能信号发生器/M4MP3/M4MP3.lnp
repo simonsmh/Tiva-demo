@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+".\m4_pinmux.o"
+".\m4_uart.o"
+".\m4_temp.o"
+".\m4_codec.o"
+".\m4_dac.o"
+".\m4_gpio.o"
+".\m4_lcd.o"
+".\m4_pwm.o"
+".\m4_main.o"
+".\startup_rvmdk.o"
+".\m4_app_cli.o"
+".\m4_app_gui.o"
+".\sdc.o"
+".\ff.o"
+".\uc1701.o"
+".\tlv320aic23b.o"
+".\gt20l16s1y.o"
+".\tmp100.o"
+".\dac7512.o"
+"D:\实验室项目\Tiva\launchpad\TivaWare_C_Series-1.0\TivaWare_C_Series-1.0\driverlib\rvmdk\driverlib.lib"
+"E:\Program Files\MDK\ARM\RV31\LIB\RTX_CM4.LIB"
+--library_type=microlib --strict --scatter ".\M4MP3.sct"
+
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\M4MP3.map" -o .\M4MP3.axf

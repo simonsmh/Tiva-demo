@@ -1,0 +1,47 @@
+Dependencies for Project 'LCD-FONT', Target 'LCD-FONT': (DO NOT MODIFY !)
+F (..\user\gt20l16s1y.c)(0x54D30EEF)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\LCD -I..\..\lcd-font -I..\user -I..\inc-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -o .\gt20l16s1y.o --omf_browse .\gt20l16s1y.crf --depend .\gt20l16s1y.d)
+F (..\user\gt20l16s1y.h)(0x54BC89FD)()
+F (..\user\hw_gt20l16s1y.h)(0x54BC89FD)()
+F (..\user\hw_uc1701.h)(0x54BC89FD)()
+F (..\user\m4_common.h)(0x54D304A9)()
+F (..\user\m4_config.h)(0x54D304FB)()
+F (..\user\m4_lcd.c)(0x54D307B8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\LCD -I..\..\lcd-font -I..\user -I..\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -Drvmdk -DPART_TM4C123GH6PM -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -o "m4_lcd.o" --omf_browse "m4_lcd.crf" --depend "m4_lcd.d")
+F (..\user\m4_pinmux.c)(0x54D30A20)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\LCD -I..\..\lcd-font -I..\user -I..\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -Drvmdk -DPART_TM4C123GH6PM -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -o "m4_pinmux.o" --omf_browse "m4_pinmux.crf" --depend "m4_pinmux.d")
+F (..\user\m4_pinmux.h)(0x54D1ABD8)()
+F (..\user\uc1701.c)(0x54D30261)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\LCD -I..\..\lcd-font -I..\user -I..\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -Drvmdk -DPART_TM4C123GH6PM -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -o "uc1701.o" --omf_browse "uc1701.crf" --depend "uc1701.d")
+F (..\user\uc1701.h)(0x54D306AD)()
+F (..\user\main.c)(0x54D30F02)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\LCD -I..\..\lcd-font -I..\user -I..\inc -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -Drvmdk -DPART_TM4C123GH6PM -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -o "main.o" --omf_browse "main.crf" --depend "main.d")
+F (..\driverlib\driverlib.lib)(0x53DB2F25)()
+F (..\inc\asmdefs.h)(0x5420C993)()
+F (..\inc\hw_adc.h)(0x5420C993)()
+F (..\inc\hw_aes.h)(0x5420C993)()
+F (..\inc\hw_can.h)(0x5420C993)()
+F (..\inc\hw_ccm.h)(0x5420C993)()
+F (..\inc\hw_comp.h)(0x5420C993)()
+F (..\inc\hw_des.h)(0x5420C993)()
+F (..\inc\hw_eeprom.h)(0x5420C993)()
+F (..\inc\hw_emac.h)(0x5420C993)()
+F (..\inc\hw_epi.h)(0x5420C993)()
+F (..\inc\hw_fan.h)(0x5420C993)()
+F (..\inc\hw_flash.h)(0x5420C993)()
+F (..\inc\hw_gpio.h)(0x5420C993)()
+F (..\inc\hw_hibernate.h)(0x5420C993)()
+F (..\inc\hw_i2c.h)(0x5420C993)()
+F (..\inc\hw_ints.h)(0x5420C993)()
+F (..\inc\hw_lcd.h)(0x5420C993)()
+F (..\inc\hw_memmap.h)(0x5420C993)()
+F (..\inc\hw_nvic.h)(0x5420C993)()
+F (..\inc\hw_pwm.h)(0x5420C993)()
+F (..\inc\hw_qei.h)(0x5420C993)()
+F (..\inc\hw_shamd5.h)(0x5420C993)()
+F (..\inc\hw_ssi.h)(0x5420C993)()
+F (..\inc\hw_sysctl.h)(0x5420C993)()
+F (..\inc\hw_sysexc.h)(0x5420C993)()
+F (..\inc\hw_timer.h)(0x5420C993)()
+F (..\inc\hw_types.h)(0x5420C993)()
+F (..\inc\hw_uart.h)(0x5420C993)()
+F (..\inc\hw_udma.h)(0x5420C993)()
+F (..\inc\hw_usb.h)(0x5420C993)()
+F (..\inc\hw_watchdog.h)(0x5420C993)()
+F (..\inc\tm4c123gh6pm.h)(0x5338BEE1)()
+F (..\start-up\startup_rvmdk.S)(0x5423B6B6)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include --list ".\startup_rvmdk.lst" --xref -o ".\startup_rvmdk.o" --depend ".\startup_rvmdk.d")

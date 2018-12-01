@@ -1,0 +1,11 @@
+.\ssi.o: ..\driverlib\ssi.c
+.\ssi.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\ssi.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\ssi.o: ..\..\SDcard\inc/hw_ints.h
+.\ssi.o: ..\..\SDcard\inc/hw_memmap.h
+.\ssi.o: ..\..\SDcard\inc/hw_ssi.h
+.\ssi.o: ..\..\SDcard\inc/hw_sysctl.h
+.\ssi.o: ..\..\SDcard\inc/hw_types.h
+.\ssi.o: ..\..\SDcard\driverlib/debug.h
+.\ssi.o: ..\..\SDcard\driverlib/interrupt.h
+.\ssi.o: ..\..\SDcard\driverlib/ssi.h

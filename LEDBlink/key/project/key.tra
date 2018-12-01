@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'key.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"..\driverlib\driverlib.lib"'
+### List of Objects: adding '".\startup_rvmdk.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "main.o" C:\ARM_Tiva\TIVA-demo\LEDBlink\key\driverlib\driverlib.lib ".\startup_rvmdk.o" 
+--strict --scatter "key.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\key.map" -o key.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'key.axf'
+### ADS-LD Command File: 'key.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'key.lnp', Handle=0x000003C8
+### Writing '.lnp' file
+### ADS-LD Command file 'key.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

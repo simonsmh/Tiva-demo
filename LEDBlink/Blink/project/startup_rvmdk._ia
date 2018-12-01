@@ -1,0 +1,4 @@
+--cpu Cortex-M4.fp -g --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+--list ".\startup_rvmdk.lst" --xref -o ".\startup_rvmdk.o" --depend ".\startup_rvmdk.d" "..\start-up\startup_rvmdk.S"

@@ -1,0 +1,15 @@
+.\uartstdio.o: ..\utils\uartstdio.c
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdarg.h
+.\uartstdio.o: ..\..\Audioplayer\inc/hw_ints.h
+.\uartstdio.o: ..\..\Audioplayer\inc/hw_memmap.h
+.\uartstdio.o: ..\..\Audioplayer\inc/hw_types.h
+.\uartstdio.o: ..\..\Audioplayer\inc/hw_uart.h
+.\uartstdio.o: ..\..\Audioplayer\driverlib/debug.h
+.\uartstdio.o: ..\..\Audioplayer\driverlib/interrupt.h
+.\uartstdio.o: ..\..\Audioplayer\driverlib/rom.h
+.\uartstdio.o: ..\..\Audioplayer\driverlib/rom_map.h
+.\uartstdio.o: ..\..\Audioplayer\driverlib/sysctl.h
+.\uartstdio.o: ..\..\Audioplayer\driverlib/uart.h
+.\uartstdio.o: ..\..\Audioplayer\utils/uartstdio.h

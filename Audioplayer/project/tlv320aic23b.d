@@ -1,0 +1,10 @@
+.\tlv320aic23b.o: ..\user\tlv320aic23b.c
+.\tlv320aic23b.o: ..\..\Audioplayer\inc/hw_memmap.h
+.\tlv320aic23b.o: ..\..\Audioplayer\inc/hw_types.h
+.\tlv320aic23b.o: ..\user\tlv320aic23b.h
+.\tlv320aic23b.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\tlv320aic23b.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\tlv320aic23b.o: ..\user\hw_tlv320aic23b.h
+.\tlv320aic23b.o: ..\..\Audioplayer\driverlib/gpio.h
+.\tlv320aic23b.o: ..\..\Audioplayer\driverlib/i2c.h
+.\tlv320aic23b.o: ..\..\Audioplayer\driverlib/sysctl.h

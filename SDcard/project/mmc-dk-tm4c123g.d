@@ -1,0 +1,12 @@
+.\mmc-dk-tm4c123g.o: ..\fatfs\port\mmc-dk-tm4c123g.c
+.\mmc-dk-tm4c123g.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\mmc-dk-tm4c123g.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\mmc-dk-tm4c123g.o: ..\..\SDcard\inc/hw_memmap.h
+.\mmc-dk-tm4c123g.o: ..\..\SDcard\inc/hw_types.h
+.\mmc-dk-tm4c123g.o: ..\..\SDcard\driverlib/gpio.h
+.\mmc-dk-tm4c123g.o: ..\..\SDcard\driverlib/rom.h
+.\mmc-dk-tm4c123g.o: ..\..\SDcard\driverlib/rom_map.h
+.\mmc-dk-tm4c123g.o: ..\..\SDcard\driverlib/ssi.h
+.\mmc-dk-tm4c123g.o: ..\..\SDcard\driverlib/sysctl.h
+.\mmc-dk-tm4c123g.o: ..\..\SDcard\fatfs/src/diskio.h
+.\mmc-dk-tm4c123g.o: ..\..\SDcard\fatfs/src/integer.h

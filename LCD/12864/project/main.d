@@ -1,0 +1,13 @@
+.\main.o: ..\user\main.c
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\string.h
+.\main.o: ..\..\12864\inc/hw_memmap.h
+.\main.o: ..\..\12864\driverlib/gpio.h
+.\main.o: ..\..\12864\driverlib/pin_map.h
+.\main.o: ..\..\12864\driverlib/sysctl.h
+.\main.o: ..\..\12864\driverlib/systick.h
+.\main.o: ..\..\12864\driverlib/ssi.h
+.\main.o: ..\user\uc1701.h
+.\main.o: ..\user\hw_uc1701.h
+.\main.o: ..\user\uc1701.h

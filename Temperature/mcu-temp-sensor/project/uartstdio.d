@@ -1,0 +1,15 @@
+.\uartstdio.o: ..\utils\uartstdio.c
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdarg.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\inc/hw_ints.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\inc/hw_memmap.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\inc/hw_types.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\inc/hw_uart.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\driverlib/debug.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\driverlib/interrupt.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\driverlib/rom.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\driverlib/rom_map.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\driverlib/sysctl.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\driverlib/uart.h
+.\uartstdio.o: ..\..\mcu-temp-sensor\utils/uartstdio.h

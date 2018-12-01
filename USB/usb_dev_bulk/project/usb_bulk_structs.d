@@ -1,0 +1,11 @@
+.\usb_bulk_structs.o: ..\user\usb_bulk_structs.c
+.\usb_bulk_structs.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\usb_bulk_structs.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\usb_bulk_structs.o: ..\..\usb_dev_bulk\inc/hw_types.h
+.\usb_bulk_structs.o: ..\..\usb_dev_bulk\driverlib/usb.h
+.\usb_bulk_structs.o: ..\..\usb_dev_bulk\usblib/usblib.h
+.\usb_bulk_structs.o: ..\..\usb_dev_bulk\usblib/usb-ids.h
+.\usb_bulk_structs.o: ..\..\usb_dev_bulk\usblib/device/usbdevice.h
+.\usb_bulk_structs.o: ..\..\usb_dev_bulk\usblib/device/usbdevicepriv.h
+.\usb_bulk_structs.o: ..\..\usb_dev_bulk\usblib/device/usbdbulk.h
+.\usb_bulk_structs.o: ..\user\usb_bulk_structs.h

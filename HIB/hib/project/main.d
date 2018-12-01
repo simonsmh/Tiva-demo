@@ -1,0 +1,11 @@
+.\main.o: ..\user\main.c
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\main.o: ..\..\hib\inc/hw_types.h
+.\main.o: ..\..\hib\inc/hw_memmap.h
+.\main.o: ..\..\hib\driverlib/sysctl.h
+.\main.o: ..\..\hib\driverlib/pin_map.h
+.\main.o: ..\..\hib\driverlib/debug.h
+.\main.o: ..\..\hib\driverlib/hibernate.h
+.\main.o: ..\..\hib\driverlib/gpio.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\time.h

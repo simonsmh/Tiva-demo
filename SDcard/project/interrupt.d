@@ -1,0 +1,9 @@
+.\interrupt.o: ..\driverlib\interrupt.c
+.\interrupt.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\interrupt.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\interrupt.o: ..\..\SDcard\inc/hw_ints.h
+.\interrupt.o: ..\..\SDcard\inc/hw_nvic.h
+.\interrupt.o: ..\..\SDcard\inc/hw_types.h
+.\interrupt.o: ..\..\SDcard\driverlib/cpu.h
+.\interrupt.o: ..\..\SDcard\driverlib/debug.h
+.\interrupt.o: ..\..\SDcard\driverlib/interrupt.h

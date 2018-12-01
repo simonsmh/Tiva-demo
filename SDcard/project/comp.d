@@ -1,0 +1,10 @@
+.\comp.o: ..\driverlib\comp.c
+.\comp.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\comp.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\comp.o: ..\..\SDcard\inc/hw_comp.h
+.\comp.o: ..\..\SDcard\inc/hw_ints.h
+.\comp.o: ..\..\SDcard\inc/hw_memmap.h
+.\comp.o: ..\..\SDcard\inc/hw_types.h
+.\comp.o: ..\..\SDcard\driverlib/comp.h
+.\comp.o: ..\..\SDcard\driverlib/debug.h
+.\comp.o: ..\..\SDcard\driverlib/interrupt.h

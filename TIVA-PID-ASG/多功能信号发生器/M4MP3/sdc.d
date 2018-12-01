@@ -1,0 +1,12 @@
+.\sdc.o: sdc.c
+.\sdc.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\sdc.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\sdc.o: inc/hw_memmap.h
+.\sdc.o: inc/hw_types.h
+.\sdc.o: driverlib/gpio.h
+.\sdc.o: driverlib/rom.h
+.\sdc.o: driverlib/ssi.h
+.\sdc.o: driverlib/sysctl.h
+.\sdc.o: fatfs/diskio.h
+.\sdc.o: fatfs/integer.h
+.\sdc.o: driverlib/pin_map.h

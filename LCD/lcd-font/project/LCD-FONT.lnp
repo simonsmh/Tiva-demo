@@ -1,0 +1,12 @@
+--cpu Cortex-M4.fp
+".\gt20l16s1y.o"
+".\m4_lcd.o"
+".\m4_pinmux.o"
+".\uc1701.o"
+".\main.o"
+"..\driverlib\driverlib.lib"
+".\startup_rvmdk.o"
+--strict --scatter ".\LCD-FONT.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LCD-FONT.map" -o .\LCD-FONT.axf

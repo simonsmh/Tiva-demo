@@ -1,0 +1,13 @@
+.\uc1701v.o: ..\user\uc1701v.c
+.\uc1701v.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\uc1701v.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\uc1701v.o: D:\keilv5\ARM\ARMCC\bin\..\include\string.h
+.\uc1701v.o: ..\..\Audioplayer\inc/hw_memmap.h
+.\uc1701v.o: ..\..\Audioplayer\driverlib/gpio.h
+.\uc1701v.o: ..\..\Audioplayer\driverlib/pin_map.h
+.\uc1701v.o: ..\..\Audioplayer\driverlib/sysctl.h
+.\uc1701v.o: ..\..\Audioplayer\driverlib/systick.h
+.\uc1701v.o: ..\..\Audioplayer\driverlib/ssi.h
+.\uc1701v.o: ..\user\uc1701v.h
+.\uc1701v.o: ..\user\hw_uc1701.h
+.\uc1701v.o: ..\user\uc1701v.h

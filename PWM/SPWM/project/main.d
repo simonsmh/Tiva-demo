@@ -1,0 +1,11 @@
+.\main.o: ..\user\main.c
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: ..\..\SPWM\inc/hw_ints.h
+.\main.o: ..\..\SPWM\inc/hw_memmap.h
+.\main.o: ..\..\SPWM\driverlib/gpio.h
+.\main.o: ..\..\SPWM\driverlib/interrupt.h
+.\main.o: ..\..\SPWM\driverlib/pin_map.h
+.\main.o: ..\..\SPWM\driverlib/pwm.h
+.\main.o: ..\..\SPWM\driverlib/sysctl.h
+.\main.o: ..\..\SPWM\driverlib/uart.h

@@ -1,0 +1,15 @@
+.\main.o: ..\user\main.c
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdarg.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\string.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: ..\user\m4_pinmux.h
+.\main.o: ..\user\m4_common.h
+.\main.o: ..\user\m4_config.h
+.\main.o: ..\..\lcd-font\inc/hw_memmap.h
+.\main.o: ..\..\lcd-font\driverlib/gpio.h
+.\main.o: ..\..\lcd-font\driverlib/pin_map.h
+.\main.o: ..\..\lcd-font\driverlib/sysctl.h
+.\main.o: ..\..\lcd-font\driverlib/systick.h
+.\main.o: ..\..\lcd-font\driverlib/ssi.h
+.\main.o: ..\..\lcd-font\driverlib/rom.h

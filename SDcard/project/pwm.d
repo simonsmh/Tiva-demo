@@ -1,0 +1,11 @@
+.\pwm.o: ..\driverlib\pwm.c
+.\pwm.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\pwm.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\pwm.o: ..\..\SDcard\inc/hw_ints.h
+.\pwm.o: ..\..\SDcard\inc/hw_memmap.h
+.\pwm.o: ..\..\SDcard\inc/hw_pwm.h
+.\pwm.o: ..\..\SDcard\inc/hw_sysctl.h
+.\pwm.o: ..\..\SDcard\inc/hw_types.h
+.\pwm.o: ..\..\SDcard\driverlib/debug.h
+.\pwm.o: ..\..\SDcard\driverlib/interrupt.h
+.\pwm.o: ..\..\SDcard\driverlib/pwm.h

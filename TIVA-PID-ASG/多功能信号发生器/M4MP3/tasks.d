@@ -1,0 +1,16 @@
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\tasks.c
+.\tasks.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\tasks.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\tasks.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\tasks.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\FreeRTOS.h
+.\tasks.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\projdefs.h
+.\tasks.o: .\FreeRTOSConfig.h
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\portable.h
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\mpu_wrappers.h
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\task.h
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\list.h
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\timers.h
+.\tasks.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\StackMacros.h

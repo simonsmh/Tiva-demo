@@ -1,0 +1,14 @@
+.\m4_uart.o: m4_uart.c
+.\m4_uart.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\m4_uart.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\m4_uart.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdio.h
+.\m4_uart.o: inc/hw_ints.h
+.\m4_uart.o: inc/hw_memmap.h
+.\m4_uart.o: driverlib/debug.h
+.\m4_uart.o: driverlib/fpu.h
+.\m4_uart.o: driverlib/gpio.h
+.\m4_uart.o: driverlib/interrupt.h
+.\m4_uart.o: driverlib/pin_map.h
+.\m4_uart.o: driverlib/rom.h
+.\m4_uart.o: driverlib/sysctl.h
+.\m4_uart.o: driverlib/uart.h

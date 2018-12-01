@@ -1,0 +1,13 @@
+.\eeprom.o: ..\driverlib\eeprom.c
+.\eeprom.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\eeprom.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\eeprom.o: ..\..\SDcard\inc/hw_eeprom.h
+.\eeprom.o: ..\..\SDcard\inc/hw_flash.h
+.\eeprom.o: ..\..\SDcard\inc/hw_ints.h
+.\eeprom.o: ..\..\SDcard\inc/hw_sysctl.h
+.\eeprom.o: ..\..\SDcard\inc/hw_types.h
+.\eeprom.o: ..\..\SDcard\driverlib/debug.h
+.\eeprom.o: ..\..\SDcard\driverlib/flash.h
+.\eeprom.o: ..\..\SDcard\driverlib/interrupt.h
+.\eeprom.o: ..\..\SDcard\driverlib/sysctl.h
+.\eeprom.o: ..\..\SDcard\driverlib/eeprom.h

@@ -1,0 +1,9 @@
+.\systick.o: ..\driverlib\systick.c
+.\systick.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\systick.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\systick.o: ..\..\SDcard\inc/hw_ints.h
+.\systick.o: ..\..\SDcard\inc/hw_nvic.h
+.\systick.o: ..\..\SDcard\inc/hw_types.h
+.\systick.o: ..\..\SDcard\driverlib/debug.h
+.\systick.o: ..\..\SDcard\driverlib/interrupt.h
+.\systick.o: ..\..\SDcard\driverlib/systick.h

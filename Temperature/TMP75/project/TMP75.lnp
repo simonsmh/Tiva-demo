@@ -1,0 +1,10 @@
+--cpu Cortex-M4.fp
+".\main.o"
+".\tmp75.o"
+"..\driverlib\driverlib.lib"
+".\startup_rvmdk.o"
+".\uartstdio.o"
+--strict --scatter ".\TMP75.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\TMP75.map" -o .\TMP75.axf

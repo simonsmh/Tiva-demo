@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{764826E8-BF41-49D9-BBAA-73EC6004307F}</ProjectGuid>
+    <RootNamespace>M4MP3</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Keil\ARM\ARMCC\include;C:\ti\TivaWare_C_Series-1.0;C:\ti\TivaWare_C_Series-1.0\sensorlib;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">M4MP3.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="FatFs\diskio.h" />
+    <ClInclude Include="FatFs\ff.h" />
+    <ClInclude Include="FatFs\ffconf.h" />
+    <ClInclude Include="FatFs\integer.h" />
+    <ClInclude Include="dac7512.h" />
+    <ClInclude Include="gt20l16s1y.h" />
+    <ClInclude Include="hw_gt20l16s1y.h" />
+    <ClInclude Include="hw_tmp100.h" />
+    <ClInclude Include="hw_uc1701.h" />
+    <ClInclude Include="mrfi\mrfi.h" />
+    <ClInclude Include="mrfi\mrfi_defs.h" />
+    <ClInclude Include="mrfi\mrfi_spi.h" />
+    <ClInclude Include="mrfi\smartrf_CC1101.h" />
+    <ClInclude Include="sound.h" />
+    <ClInclude Include="tlv320aic23b.h" />
+    <ClInclude Include="tmp100.h" />
+    <ClInclude Include="uc1701.h" />
+    <ClInclude Include="m4_pinmux.h" />
+    <ClInclude Include="m4_common.h" />
+    <ClInclude Include="m4_config.h" />
+    <ClInclude Include="u8glib\u8g.h" />
+    <ClInclude Include="u8glib\u8g_arm.h" />
+    <ClInclude Include="m2tklib\m2.h" />
+    <ClInclude Include="m2tklib\m2ghu8g.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FatFs\ff.c" />
+    <ClCompile Include="dac7512.c" />
+    <ClCompile Include="gt20l16s1y.c" />
+    <ClCompile Include="m4_cc1101.c" />
+    <ClCompile Include="mrfi\mrfi_radio.c" />
+    <ClCompile Include="mrfi\mrfi_spi.c" />
+    <ClCompile Include="sdc.c" />
+    <ClCompile Include="sound.c" />
+    <ClCompile Include="tlv320aic23b.c" />
+    <ClCompile Include="tmp100.c" />
+    <ClCompile Include="uc1701.c" />
+    <ClCompile Include="m4_pinmux.c" />
+    <ClCompile Include="m4_app_gui.cpp" />
+    <ClCompile Include="m4_codec.c" />
+    <ClCompile Include="m4_dac.c" />
+    <ClCompile Include="m4_gpio.c" />
+    <ClCompile Include="m4_lcd.c" />
+    <ClCompile Include="m4_main.c" />
+    <ClCompile Include="m4_spwm.c" />
+    <ClCompile Include="m4_ssi.c" />
+    <ClCompile Include="m4_uart.c" />
+    <ClCompile Include="u8glib\u8g_arm.c" />
+    <ClCompile Include="u8glib\u8g_bitmap.c" />
+    <ClCompile Include="u8glib\u8g_circle.c" />
+    <ClCompile Include="u8glib\u8g_clip.c" />
+    <ClCompile Include="u8glib\u8g_com_api.c" />
+    <ClCompile Include="u8glib\u8g_com_null.c" />
+    <ClCompile Include="u8glib\u8g_dev_uc1701_mini12864.c" />
+    <ClCompile Include="u8glib\u8g_font.c" />
+    <ClCompile Include="u8glib\u8g_font_data.c" />
+    <ClCompile Include="u8glib\u8g_ll_api.c" />
+    <ClCompile Include="u8glib\u8g_page.c" />
+    <ClCompile Include="u8glib\u8g_pb.c" />
+    <ClCompile Include="u8glib\u8g_pb16v1.c" />
+    <ClCompile Include="u8glib\u8g_pb8v1.c" />
+    <ClCompile Include="u8glib\u8g_rect.c" />
+    <ClCompile Include="u8glib\u8g_state.c" />
+    <ClCompile Include="m2tklib\m2.c" />
+    <ClCompile Include="m2tklib\m2align.c" />
+    <ClCompile Include="m2tklib\m2dfs.c" />
+    <ClCompile Include="m2tklib\m2draw.c" />
+    <ClCompile Include="m2tklib\m2eh2bs.c" />
+    <ClCompile Include="m2tklib\m2elalign.c" />
+    <ClCompile Include="m2tklib\m2elfnfmt.c" />
+    <ClCompile Include="m2tklib\m2ellabel.c" />
+    <ClCompile Include="m2tklib\m2ellistbase.c" />
+    <ClCompile Include="m2tklib\m2ellistcalc.c" />
+    <ClCompile Include="m2tklib\m2ellisth.c" />
+    <ClCompile Include="m2tklib\m2ellistv.c" />
+    <ClCompile Include="m2tklib\m2elroot.c" />
+    <ClCompile Include="m2tklib\m2elsb.c" />
+    <ClCompile Include="m2tklib\m2elslbase.c" />
+    <ClCompile Include="m2tklib\m2elstr.c" />
+    <ClCompile Include="m2tklib\m2elsubutl.c" />
+    <ClCompile Include="m2tklib\m2elu32.c" />
+    <ClCompile Include="m2tklib\m2elxbm.c" />
+    <ClCompile Include="m2tklib\m2esarmu8g.c" />
+    <ClCompile Include="m2tklib\m2fnarg.c" />
+    <ClCompile Include="m2tklib\m2gfx.c" />
+    <ClCompile Include="m2tklib\m2gfxutl.c" />
+    <ClCompile Include="m2tklib\m2ghdummy.c" />
+    <ClCompile Include="m2tklib\m2ghu8gbfs.c" />
+    <ClCompile Include="m2tklib\m2ghu8gicon.c" />
+    <ClCompile Include="m2tklib\m2ghu8gutl.c" />
+    <ClCompile Include="m2tklib\m2key.c" />
+    <ClCompile Include="m2tklib\m2navdatadn.c" />
+    <ClCompile Include="m2tklib\m2navdataup.c" />
+    <ClCompile Include="m2tklib\m2navfirst.c" />
+    <ClCompile Include="m2tklib\m2navinit.c" />
+    <ClCompile Include="m2tklib\m2navnext.c" />
+    <ClCompile Include="m2tklib\m2navroot.c" />
+    <ClCompile Include="m2tklib\m2navupdn.c" />
+    <ClCompile Include="m2tklib\m2navutl.c" />
+    <ClCompile Include="m2tklib\m2null.c" />
+    <ClCompile Include="m2tklib\m2obj.c" />
+    <ClCompile Include="m2tklib\m2opt.c" />
+    <ClCompile Include="m2tklib\m2pin.c" />
+    <ClCompile Include="m2tklib\m2rom.c" />
+    <ClCompile Include="m2tklib\m2usrnext.c" />
+    <ClCompile Include="m2tklib\m2usrupdn.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="startup_rvmdk.S" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

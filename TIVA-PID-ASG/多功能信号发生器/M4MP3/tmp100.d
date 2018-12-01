@@ -1,0 +1,13 @@
+.\tmp100.o: tmp100.c
+.\tmp100.o: D:\keilv5\ARM\ARMCC\bin\..\include\math.h
+.\tmp100.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\tmp100.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\tmp100.o: hw_tmp100.h
+.\tmp100.o: inc/hw_memmap.h
+.\tmp100.o: inc/hw_gpio.h
+.\tmp100.o: inc/hw_types.h
+.\tmp100.o: inc/hw_i2c.h
+.\tmp100.o: driverlib/sysctl.h
+.\tmp100.o: driverlib/rom_map.h
+.\tmp100.o: driverlib/i2c.h
+.\tmp100.o: tmp100.h

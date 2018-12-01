@@ -1,0 +1,10 @@
+.\flash.o: ..\driverlib\flash.c
+.\flash.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\flash.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\flash.o: ..\..\SDcard\inc/hw_flash.h
+.\flash.o: ..\..\SDcard\inc/hw_ints.h
+.\flash.o: ..\..\SDcard\inc/hw_sysctl.h
+.\flash.o: ..\..\SDcard\inc/hw_types.h
+.\flash.o: ..\..\SDcard\driverlib/debug.h
+.\flash.o: ..\..\SDcard\driverlib/flash.h
+.\flash.o: ..\..\SDcard\driverlib/interrupt.h

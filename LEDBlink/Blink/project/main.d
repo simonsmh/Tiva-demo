@@ -1,0 +1,13 @@
+main.o: ..\user\main.c
+main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+main.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+main.o: ..\..\Blink\inc/hw_memmap.h
+main.o: ..\..\Blink\inc/hw_types.h
+main.o: ..\..\Blink\inc/hw_gpio.h
+main.o: ..\..\Blink\inc/hw_sysctl.h
+main.o: ..\..\Blink\driverlib/sysctl.h
+main.o: ..\..\Blink\driverlib/gpio.h
+main.o: ..\..\Blink\driverlib/fpu.h

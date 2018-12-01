@@ -1,0 +1,12 @@
+.\emac.o: ..\driverlib\emac.c
+.\emac.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\emac.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\emac.o: ..\..\SDcard\inc/hw_ints.h
+.\emac.o: ..\..\SDcard\inc/hw_memmap.h
+.\emac.o: ..\..\SDcard\inc/hw_types.h
+.\emac.o: ..\..\SDcard\inc/hw_emac.h
+.\emac.o: ..\..\SDcard\driverlib/debug.h
+.\emac.o: ..\..\SDcard\driverlib/emac.h
+.\emac.o: ..\..\SDcard\driverlib/sysctl.h
+.\emac.o: ..\..\SDcard\driverlib/interrupt.h
+.\emac.o: ..\..\SDcard\driverlib/sw_crc.h

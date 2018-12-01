@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="middleware">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="driver_sdc">
+      <UniqueIdentifier>{48fd8900-66c7-47ff-b9c0-d73c159625c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver_lcd">
+      <UniqueIdentifier>{dbba76cd-8232-4e6e-8038-6f3e97c95ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver_fontchip">
+      <UniqueIdentifier>{18200c95-df79-4f08-bb24-5be0e4e81442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver_temp">
+      <UniqueIdentifier>{ff8c5d0c-8c18-469e-8c71-9b6da9d134b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver_dac">
+      <UniqueIdentifier>{d8a846b4-a921-49ba-93b3-bfab8c1c4569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver_u8g">
+      <UniqueIdentifier>{7929b0a4-2ffc-4ee0-9d95-f794af1a2c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver_m2tk">
+      <UniqueIdentifier>{4448593b-afeb-441a-89ed-51ac5446f62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver_fatfs">
+      <UniqueIdentifier>{b24bdfa6-7f82-4a65-8558-9a547ccaf94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver_codec">
+      <UniqueIdentifier>{41d1a7f1-3102-4110-a2dd-933ca16b1514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver_cc1101">
+      <UniqueIdentifier>{7fb9325c-3a75-4af2-9d9b-55ed492cc052}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FatFs\diskio.h">
+      <Filter>driver_fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="FatFs\ff.h">
+      <Filter>driver_fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="FatFs\ffconf.h">
+      <Filter>driver_fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="FatFs\integer.h">
+      <Filter>driver_fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="m4_pinmux.h">
+      <Filter>middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="m4_common.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="m4_config.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="u8glib\u8g.h">
+      <Filter>driver_u8g</Filter>
+    </ClInclude>
+    <ClInclude Include="u8glib\u8g_arm.h">
+      <Filter>driver_u8g</Filter>
+    </ClInclude>
+    <ClInclude Include="m2tklib\m2.h">
+      <Filter>driver_m2tk</Filter>
+    </ClInclude>
+    <ClInclude Include="m2tklib\m2ghu8g.h">
+      <Filter>driver_m2tk</Filter>
+    </ClInclude>
+    <ClInclude Include="dac7512.h">
+      <Filter>driver_dac</Filter>
+    </ClInclude>
+    <ClInclude Include="uc1701.h">
+      <Filter>driver_lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="hw_uc1701.h">
+      <Filter>driver_lcd</Filter>
+    </ClInclude>
+    <ClInclude Include="tmp100.h">
+      <Filter>driver_temp</Filter>
+    </ClInclude>
+    <ClInclude Include="hw_gt20l16s1y.h">
+      <Filter>driver_fontchip</Filter>
+    </ClInclude>
+    <ClInclude Include="gt20l16s1y.h">
+      <Filter>driver_fontchip</Filter>
+    </ClInclude>
+    <ClInclude Include="tlv320aic23b.h">
+      <Filter>driver_codec</Filter>
+    </ClInclude>
+    <ClInclude Include="hw_tmp100.h">
+      <Filter>driver_temp</Filter>
+    </ClInclude>
+    <ClInclude Include="mrfi\mrfi.h">
+      <Filter>driver_cc1101</Filter>
+    </ClInclude>
+    <ClInclude Include="mrfi\mrfi_defs.h">
+      <Filter>driver_cc1101</Filter>
+    </ClInclude>
+    <ClInclude Include="mrfi\mrfi_spi.h">
+      <Filter>driver_cc1101</Filter>
+    </ClInclude>
+    <ClInclude Include="mrfi\smartrf_CC1101.h">
+      <Filter>driver_cc1101</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>driver_codec</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FatFs\ff.c">
+      <Filter>driver_fatfs</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_pinmux.c">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_app_gui.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_arm.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_bitmap.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_circle.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_clip.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_com_api.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_com_null.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_dev_uc1701_mini12864.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_font.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_font_data.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_ll_api.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_page.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_pb.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_pb16v1.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_pb8v1.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_rect.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="u8glib\u8g_state.c">
+      <Filter>driver_u8g</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2align.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2dfs.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2draw.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2eh2bs.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2elalign.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2elfnfmt.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2ellabel.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2ellistbase.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2ellistcalc.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2ellisth.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2ellistv.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2elroot.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2elsb.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2elslbase.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2elstr.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2elsubutl.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2elu32.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2elxbm.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2esarmu8g.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2fnarg.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2gfx.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2gfxutl.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2ghdummy.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2ghu8gbfs.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2ghu8gicon.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2ghu8gutl.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2key.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2navdatadn.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2navdataup.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2navfirst.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2navinit.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2navnext.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2navroot.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2navupdn.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2navutl.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2null.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2obj.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2opt.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2pin.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2rom.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2usrnext.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m2tklib\m2usrupdn.c">
+      <Filter>driver_m2tk</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_uart.c">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_lcd.c">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_spwm.c">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_ssi.c">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_dac.c">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_gpio.c">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_cc1101.c">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_codec.c">
+      <Filter>middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="m4_main.c">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="dac7512.c">
+      <Filter>driver_dac</Filter>
+    </ClCompile>
+    <ClCompile Include="uc1701.c">
+      <Filter>driver_lcd</Filter>
+    </ClCompile>
+    <ClCompile Include="tmp100.c">
+      <Filter>driver_temp</Filter>
+    </ClCompile>
+    <ClCompile Include="gt20l16s1y.c">
+      <Filter>driver_fontchip</Filter>
+    </ClCompile>
+    <ClCompile Include="tlv320aic23b.c">
+      <Filter>driver_codec</Filter>
+    </ClCompile>
+    <ClCompile Include="sdc.c">
+      <Filter>driver_sdc</Filter>
+    </ClCompile>
+    <ClCompile Include="mrfi\mrfi_radio.c">
+      <Filter>driver_cc1101</Filter>
+    </ClCompile>
+    <ClCompile Include="mrfi\mrfi_spi.c">
+      <Filter>driver_cc1101</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.c">
+      <Filter>driver_codec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="startup_rvmdk.S">
+      <Filter>main</Filter>
+    </None>
+  </ItemGroup>
+</Project>

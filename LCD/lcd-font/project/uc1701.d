@@ -1,0 +1,11 @@
+.\uc1701.o: ..\user\uc1701.c
+.\uc1701.o: ..\user\uc1701.h
+.\uc1701.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\uc1701.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\uc1701.o: ..\..\lcd-font\driverlib/sysctl.h
+.\uc1701.o: ..\user\hw_uc1701.h
+.\uc1701.o: ..\..\lcd-font\inc/hw_memmap.h
+.\uc1701.o: ..\..\lcd-font\inc/hw_gpio.h
+.\uc1701.o: ..\..\lcd-font\driverlib/rom_map.h
+.\uc1701.o: ..\..\lcd-font\driverlib/gpio.h
+.\uc1701.o: ..\..\lcd-font\driverlib/ssi.h

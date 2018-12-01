@@ -1,0 +1,11 @@
+.\uc1701.o: uc1701.c
+.\uc1701.o: uc1701.h
+.\uc1701.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\uc1701.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\uc1701.o: driverlib/sysctl.h
+.\uc1701.o: hw_uc1701.h
+.\uc1701.o: inc/hw_memmap.h
+.\uc1701.o: inc/hw_gpio.h
+.\uc1701.o: driverlib/rom_map.h
+.\uc1701.o: driverlib/gpio.h
+.\uc1701.o: driverlib/ssi.h

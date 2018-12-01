@@ -1,0 +1,93 @@
+Dependencies for Project 'SDcard', Target 'SDcard': (DO NOT MODIFY !)
+F (..\user\main.c)(0x54D32B12)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\TIVA-Simple-experiment -I..\..\SDcard -I..\inc -I..\fatfs -I..\utils -I..\usblib -I..\driverlib-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (..\..\SDcard\inc/hw_memmap.h)(0x5420C993)
+I (..\..\SDcard\driverlib/fpu.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/gpio.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/interrupt.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/pin_map.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/rom.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/sysctl.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/systick.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/uart.h)(0x5420C97E)
+I (..\..\SDcard\utils/cmdline.h)(0x5420C99E)
+I (..\..\SDcard\utils/uartstdio.h)(0x5420C99E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (..\..\SDcard\fatfs/ff.h)(0x52D56672)
+I (..\..\SDcard\fatfs/integer.h)(0x52D56672)
+I (..\..\SDcard\fatfs/ffconf.h)(0x53E20694)
+I (..\..\SDcard\fatfs/diskio.h)(0x52D56672)
+F (..\user\sdc.c)(0x54D32AF0)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\TIVA-Simple-experiment -I..\..\SDcard -I..\inc -I..\fatfs -I..\utils -I..\usblib -I..\driverlib-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -o .\sdc.o --omf_browse .\sdc.crf --depend .\sdc.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\SDcard\inc/hw_memmap.h)(0x5420C993)
+I (..\..\SDcard\inc/hw_types.h)(0x5420C993)
+I (..\..\SDcard\driverlib/gpio.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/rom.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/ssi.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/sysctl.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/interrupt.h)(0x5420C97E)
+I (..\..\SDcard\fatfs/diskio.h)(0x52D56672)
+I (..\..\SDcard\fatfs/integer.h)(0x52D56672)
+I (..\..\SDcard\driverlib/pin_map.h)(0x5420C97E)
+F (..\driverlib\driverlib.lib)(0x53DB2F25)()
+F (..\inc\asmdefs.h)(0x5420C993)()
+F (..\inc\hw_adc.h)(0x5420C993)()
+F (..\inc\hw_aes.h)(0x5420C993)()
+F (..\inc\hw_can.h)(0x5420C993)()
+F (..\inc\hw_ccm.h)(0x5420C993)()
+F (..\inc\hw_comp.h)(0x5420C993)()
+F (..\inc\hw_des.h)(0x5420C993)()
+F (..\inc\hw_eeprom.h)(0x5420C993)()
+F (..\inc\hw_emac.h)(0x5420C993)()
+F (..\inc\hw_epi.h)(0x5420C993)()
+F (..\inc\hw_fan.h)(0x5420C993)()
+F (..\inc\hw_flash.h)(0x5420C993)()
+F (..\inc\hw_gpio.h)(0x5420C993)()
+F (..\inc\hw_hibernate.h)(0x5420C993)()
+F (..\inc\hw_i2c.h)(0x5420C993)()
+F (..\inc\hw_ints.h)(0x5420C993)()
+F (..\inc\hw_lcd.h)(0x5420C993)()
+F (..\inc\hw_memmap.h)(0x5420C993)()
+F (..\inc\hw_nvic.h)(0x5420C993)()
+F (..\inc\hw_pwm.h)(0x5420C993)()
+F (..\inc\hw_qei.h)(0x5420C993)()
+F (..\inc\hw_shamd5.h)(0x5420C993)()
+F (..\inc\hw_ssi.h)(0x5420C993)()
+F (..\inc\hw_sysctl.h)(0x5420C993)()
+F (..\inc\hw_sysexc.h)(0x5420C993)()
+F (..\inc\hw_timer.h)(0x5420C993)()
+F (..\inc\hw_types.h)(0x5420C993)()
+F (..\inc\hw_uart.h)(0x5420C993)()
+F (..\inc\hw_udma.h)(0x5420C993)()
+F (..\inc\hw_usb.h)(0x5420C993)()
+F (..\inc\hw_watchdog.h)(0x5420C993)()
+F (..\inc\tm4c123gh6pm.h)(0x5338BEE1)()
+F (..\start-up\startup_rvmdk.S)(0x5426B9DC)(--cpu Cortex-M4.fp -g --apcs=interwork -I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123--list .\startup_rvmdk.lst --xref -o .\startup_rvmdk.o --depend .\startup_rvmdk.d)
+F (..\utils\uartstdio.c)(0x5420C99E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\TIVA-Simple-experiment -I..\..\SDcard -I..\inc -I..\fatfs -I..\utils -I..\usblib -I..\driverlib-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -o .\uartstdio.o --omf_browse .\uartstdio.crf --depend .\uartstdio.d)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (..\..\SDcard\inc/hw_ints.h)(0x5420C993)
+I (..\..\SDcard\inc/hw_memmap.h)(0x5420C993)
+I (..\..\SDcard\inc/hw_types.h)(0x5420C993)
+I (..\..\SDcard\inc/hw_uart.h)(0x5420C993)
+I (..\..\SDcard\driverlib/debug.h)(0x5420C97D)
+I (..\..\SDcard\driverlib/interrupt.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/rom.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/rom_map.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/sysctl.h)(0x5420C97E)
+I (..\..\SDcard\driverlib/uart.h)(0x5420C97E)
+I (..\..\SDcard\utils/uartstdio.h)(0x5420C99E)
+F (..\fatfs\diskio.h)(0x52D56672)()
+F (..\fatfs\ff.c)(0x52D56672)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\TIVA-Simple-experiment -I..\..\SDcard -I..\inc -I..\fatfs -I..\utils -I..\usblib -I..\driverlib-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -o .\ff.o --omf_browse .\ff.crf --depend .\ff.d)
+I (..\fatfs\ff.h)(0x52D56672)
+I (..\fatfs\integer.h)(0x52D56672)
+I (..\fatfs\ffconf.h)(0x53E20694)
+I (..\fatfs\diskio.h)(0x52D56672)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+F (..\fatfs\ff.h)(0x52D56672)()
+F (..\fatfs\ffconf.h)(0x53E20694)()
+F (..\fatfs\integer.h)(0x52D56672)()

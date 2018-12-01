@@ -1,0 +1,12 @@
+.\aes.o: ..\driverlib\aes.c
+.\aes.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\aes.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\aes.o: ..\..\SDcard\inc/hw_aes.h
+.\aes.o: ..\..\SDcard\inc/hw_ccm.h
+.\aes.o: ..\..\SDcard\inc/hw_ints.h
+.\aes.o: ..\..\SDcard\inc/hw_memmap.h
+.\aes.o: ..\..\SDcard\inc/hw_nvic.h
+.\aes.o: ..\..\SDcard\inc/hw_types.h
+.\aes.o: ..\..\SDcard\driverlib/aes.h
+.\aes.o: ..\..\SDcard\driverlib/debug.h
+.\aes.o: ..\..\SDcard\driverlib/interrupt.h

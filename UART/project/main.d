@@ -1,0 +1,17 @@
+.\main.o: ..\user\main.c
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdio.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdarg.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\string.h
+.\main.o: ..\..\UART\inc/hw_memmap.h
+.\main.o: ..\..\UART\inc/hw_types.h
+.\main.o: ..\..\UART\inc/hw_gpio.h
+.\main.o: ..\..\UART\inc/hw_sysctl.h
+.\main.o: ..\..\UART\inc/hw_uart.h
+.\main.o: ..\..\UART\inc/tm4c123gh6pm.h
+.\main.o: ..\..\UART\driverlib/sysctl.h
+.\main.o: ..\..\UART\driverlib/gpio.h
+.\main.o: ..\..\UART\driverlib/fpu.h
+.\main.o: ..\..\UART\driverlib/uart.h
+.\main.o: ..\..\UART\driverlib/pin_map.h

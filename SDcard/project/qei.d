@@ -1,0 +1,11 @@
+.\qei.o: ..\driverlib\qei.c
+.\qei.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\qei.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\qei.o: ..\..\SDcard\inc/hw_ints.h
+.\qei.o: ..\..\SDcard\inc/hw_memmap.h
+.\qei.o: ..\..\SDcard\inc/hw_qei.h
+.\qei.o: ..\..\SDcard\inc/hw_types.h
+.\qei.o: ..\..\SDcard\inc/hw_sysctl.h
+.\qei.o: ..\..\SDcard\driverlib/debug.h
+.\qei.o: ..\..\SDcard\driverlib/interrupt.h
+.\qei.o: ..\..\SDcard\driverlib/qei.h

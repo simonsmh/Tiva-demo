@@ -1,0 +1,549 @@
+Dependencies for Project 'M4MP3', Target 'M4MP3': (DO NOT MODIFY !)
+F (.\m4_pinmux.h)(0x540FE4A0)()
+F (.\m4_pinmux.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_pinmux.o --omf_browse .\dbg\m4_pinmux.crf --depend .\dbg\m4_pinmux.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_pinmux.h)(0x540FE4A0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_gpio.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+F (.\m4_adc.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_adc.o --omf_browse .\dbg\m4_adc.crf --depend .\dbg\m4_adc.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\adc.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\comp.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\fpu.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+F (.\m4_uart.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_uart.o --omf_browse .\dbg\m4_uart.crf --depend .\dbg\m4_uart.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\fpu.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\uart.h)(0x53E2FB9A)
+F (.\m4_temp.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_temp.o --omf_browse .\dbg\m4_temp.crf --depend .\dbg\m4_temp.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\tmp100.h)(0x540FE4A0)
+F (.\m4_codec.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_codec.o --omf_browse .\dbg\m4_codec.crf --depend .\dbg\m4_codec.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\adc.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\fpu.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\timer.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\tlv320aic23b.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\hw_tlv320aic23b.h)(0x540FE4A0)
+F (.\m4_dac.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_dac.o --omf_browse .\dbg\m4_dac.crf --depend .\dbg\m4_dac.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\adc.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\fpu.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\dac7512.h)(0x540FE4A0)
+F (.\m4_gpio.c)(0x540FFE85)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_gpio.o --omf_browse .\dbg\m4_gpio.crf --depend .\dbg\m4_gpio.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_gpio.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\fpu.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+F (.\m4_lcd.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_lcd.o --omf_browse .\dbg\m4_lcd.crf --depend .\dbg\m4_lcd.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\uc1701.h)(0x540FE4A0)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\hw_uc1701.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\gt20l16s1y.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+F (.\m4_pwm.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_pwm.o --omf_browse .\dbg\m4_pwm.crf --depend .\dbg\m4_pwm.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\adc.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\fpu.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pwm.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+F (.\m4_usbmsc.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_usbmsc.o --omf_browse .\dbg\m4_usbmsc.crf --depend .\dbg\m4_usbmsc.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\systick.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\usb.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\udma.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\usblib.h)(0x53E2FBDF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\usb-ids.h)(0x53E2FBDF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\device\usbdevice.h)(0x53E2FBE0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\device\usbdevicepriv.h)(0x53E2FBE0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\device\usbdmsc.h)(0x53E2FBE0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\fatfs\diskio.h)(0x540FE499)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\fatfs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\usb_msc_structs.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+F (.\m4_time.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_time.o --omf_browse .\dbg\m4_time.crf --depend .\dbg\m4_time.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_gpio.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\hibernate.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\timer.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\watchdog.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\utils\ustdlib.h)(0x53E2FBE0)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+F (.\m4_cc1101.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_cc1101.o --omf_browse .\dbg\m4_cc1101.crf --depend .\dbg\m4_cc1101.d)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\cc1101\CC1100-CC2500.h)(0x540FE4AA)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\cc1101\TI_CC_spi.h)(0x540FE4AA)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\cc1101\TI_CC_CC1100-CC2500.h)(0x540FE4AA)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+F (.\m4_common.h)(0x540FE4A0)()
+F (.\m4_config.h)(0x540FE4A0)()
+F (.\m4_main.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_main.o --omf_browse .\dbg\m4_main.crf --depend .\dbg\m4_main.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\fpu.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\systick.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\uart.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_pinmux.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_ver.h)(0x540FE4A0)
+F (.\startup_rvmdk.S)(0x540FE4A0)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"--pd "_M4_RTX SETA 1" --pd "_M4_FREERTOS SETA 1" -o .\dbg\startup_rvmdk.o --depend .\dbg\startup_rvmdk.d)
+F (.\m4_app_gui.cpp)(0x540FE4A0)()
+F (.\m4_app_res.h)(0x540FE4A0)()
+F (.\m4_ver.h)(0x540FE4A0)()
+F (.\m4_app_player.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_app_player.o --omf_browse .\dbg\m4_app_player.crf --depend .\dbg\m4_app_player.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\sound.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+F (.\m4_app_demo.c)(0x54102225)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\m4_app_demo.o --omf_browse .\dbg\m4_app_demo.crf --depend .\dbg\m4_app_demo.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\adc.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\systick.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_common.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+F (.\sdc.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\sdc.o --omf_browse .\dbg\sdc.crf --depend .\dbg\sdc.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\fatfs\diskio.h)(0x540FE499)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\fatfs\integer.h)(0x540FE49A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+F (.\FatFs\ff.c)(0x540FE499)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\ff.o --omf_browse .\dbg\ff.crf --depend .\dbg\ff.d)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\diskio.h)(0x540FE499)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+F (.\FatFs\ff.h)(0x540FE49A)()
+F (.\FatFs\ffconf.h)(0x540FE49A)()
+F (.\FatFs\integer.h)(0x540FE49A)()
+F (.\FatFs\diskio.h)(0x540FE499)()
+F (.\uc1701.h)(0x540FE4A0)()
+F (.\uc1701.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\uc1701.o --omf_browse .\dbg\uc1701.crf --depend .\dbg\uc1701.d)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\uc1701.h)(0x540FE4A0)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\hw_uc1701.h)(0x540FE4A0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_gpio.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+F (.\hw_uc1701.h)(0x540FE4A0)()
+F (.\tlv320aic23b.h)(0x540FE4A0)()
+F (.\tlv320aic23b.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\tlv320aic23b.o --omf_browse .\dbg\tlv320aic23b.crf --depend .\dbg\tlv320aic23b.d)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x53E2FBCF)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\tlv320aic23b.h)(0x540FE4A0)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\hw_tlv320aic23b.h)(0x540FE4A0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\i2c.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+F (.\sound.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\sound.o --omf_browse .\dbg\sound.crf --depend .\dbg\sound.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ssi.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_sysctl.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\udma.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\timer.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\fatfs\ff.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\fatfs\integer.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\fatfs\ffconf.h)(0x540FE49A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\fatfs\diskio.h)(0x540FE499)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\utils\ustdlib.h)(0x53E2FBE0)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\tlv320aic23b.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\hw_tlv320aic23b.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\sound.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\m4_config.h)(0x540FE4A0)
+F (.\sound.h)(0x540FE4A0)()
+F (.\gt20l16s1y.h)(0x540FE4A0)()
+F (.\gt20l16s1y.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\gt20l16s1y.o --omf_browse .\dbg\gt20l16s1y.crf --depend .\dbg\gt20l16s1y.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\hw_gt20l16s1y.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\gt20l16s1y.h)(0x540FE4A0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_gpio.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+F (.\hw_gt20l16s1y.h)(0x540FE4A0)()
+F (.\tmp100.h)(0x540FE4A0)()
+F (.\tmp100.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\tmp100.o --omf_browse .\dbg\tmp100.crf --depend .\dbg\tmp100.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\hw_tmp100.h)(0x540FE4A0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_gpio.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_i2c.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\i2c.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\tmp100.h)(0x540FE4A0)
+F (.\dac7512.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\dac7512.o --omf_browse .\dbg\dac7512.crf --depend .\dbg\dac7512.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_gpio.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\timer.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\udma.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\dac7512.h)(0x540FE4A0)
+F (.\dac7512.h)(0x540FE4A0)()
+F (.\u8glib\u8g_rect.c)(0x540FE4A0)()
+F (.\u8glib\u8g_circle.c)(0x540FE4A0)()
+F (.\u8glib\u8g_arm.c)(0x540FE4A0)()
+F (.\u8glib\u8g_clip.c)(0x540FE4A0)()
+F (.\u8glib\u8g_com_api.c)(0x540FE4A0)()
+F (.\u8glib\u8g_com_null.c)(0x540FE4A0)()
+F (.\u8glib\u8g_dev_uc1701_mini12864.c)(0x540FE4A0)()
+F (.\u8glib\u8g_font.c)(0x540FE4A0)()
+F (.\u8glib\u8g_font_data.c)(0x540FE4A0)()
+F (.\u8glib\u8g_ll_api.c)(0x540FE4A0)()
+F (.\u8glib\u8g_page.c)(0x540FE4A0)()
+F (.\u8glib\u8g_pb8v1.c)(0x540FE4A0)()
+F (.\u8glib\u8g_pb16v1.c)(0x540FE4A0)()
+F (.\u8glib\u8g_pb.c)(0x540FE4A0)()
+F (.\u8glib\u8g_state.c)(0x540FE4A0)()
+F (.\u8glib\u8g_arm.h)(0x540FE4A0)()
+F (.\u8glib\u8g.h)(0x540FE4A0)()
+F (.\u8glib\u8g_bitmap.c)(0x540FE4A0)()
+F (.\m2tklib\m2esarmu8g.c)(0x540FE4A0)()
+F (.\m2tklib\m2align.c)(0x540FE4A0)()
+F (.\m2tklib\m2ghdummy.c)(0x540FE4A0)()
+F (.\m2tklib\m2.c)(0x540FE4A0)()
+F (.\m2tklib\m2.h)(0x540FE4A0)()
+F (.\m2tklib\m2dfs.c)(0x540FE4A0)()
+F (.\m2tklib\m2draw.c)(0x540FE4A0)()
+F (.\m2tklib\m2fnarg.c)(0x540FE4A0)()
+F (.\m2tklib\m2gfx.c)(0x540FE4A0)()
+F (.\m2tklib\m2key.c)(0x540FE4A0)()
+F (.\m2tklib\m2navinit.c)(0x540FE4A0)()
+F (.\m2tklib\m2navnext.c)(0x540FE4A0)()
+F (.\m2tklib\m2navroot.c)(0x540FE4A0)()
+F (.\m2tklib\m2navupdn.c)(0x540FE4A0)()
+F (.\m2tklib\m2navutl.c)(0x540FE4A0)()
+F (.\m2tklib\m2obj.c)(0x540FE4A0)()
+F (.\m2tklib\m2usrnext.c)(0x540FE498)()
+F (.\m2tklib\m2navfirst.c)(0x540FE4A0)()
+F (.\m2tklib\m2null.c)(0x540FE4A0)()
+F (.\m2tklib\m2rom.c)(0x540FE497)()
+F (.\m2tklib\m2elfnfmt.c)(0x540FE4A0)()
+F (.\m2tklib\m2opt.c)(0x540FE4A0)()
+F (.\m2tklib\m2ghu8gicon.c)(0x540FE4A0)()
+F (.\m2tklib\m2ghu8g.h)(0x540FE4A0)()
+F (.\m2tklib\m2ghu8gutl.c)(0x540FE4A0)()
+F (.\m2tklib\m2ellabel.c)(0x540FE4A0)()
+F (.\m2tklib\m2ghu8gbfs.c)(0x540FE4A0)()
+F (.\m2tklib\m2elsb.c)(0x540FE4A0)()
+F (.\m2tklib\m2elstr.c)(0x540FE4A0)()
+F (.\m2tklib\m2gfxutl.c)(0x540FE4A0)()
+F (.\m2tklib\m2elslbase.c)(0x540FE4A0)()
+F (.\m2tklib\m2ellistbase.c)(0x540FE4A0)()
+F (.\m2tklib\m2ellistv.c)(0x540FE4A0)()
+F (.\m2tklib\m2elsubutl.c)(0x540FE4A0)()
+F (.\m2tklib\m2ellistcalc.c)(0x540FE4A0)()
+F (.\m2tklib\m2eh2bs.c)(0x540FE4A0)()
+F (.\m2tklib\m2elu32.c)(0x540FE4A0)()
+F (.\m2tklib\m2navdataup.c)(0x540FE4A0)()
+F (.\m2tklib\m2navdatadn.c)(0x540FE4A0)()
+F (.\m2tklib\m2usrupdn.c)(0x540FE498)()
+F (.\m2tklib\m2pin.c)(0x540FE497)()
+F (.\m2tklib\m2elxbm.c)(0x540FE4A0)()
+F (.\m2tklib\m2ellisth.c)(0x540FE4A0)()
+F (.\m2tklib\m2elalign.c)(0x540FE4A0)()
+F (.\m2tklib\m2elroot.c)(0x540FE4A0)()
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\rvmdk\usblib.lib)(0x53E2FBE0)()
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\utils\ustdlib.c)(0x53E2FBE0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\ustdlib.o --omf_browse .\dbg\ustdlib.crf --depend .\dbg\ustdlib.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\utils\ustdlib.h)(0x53E2FBE0)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\time.h)(0x51C7B744)
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rvmdk\driverlib.lib)(0x53E2FB9A)()
+F (.\RTX_Config.c)(0x540FE4A0)()
+F (.\m4_rtx.c)(0x540FE4A0)()
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\MemMang\heap_2.c)(0x53E2FBD9)()
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\list.c)(0x53E2FBD9)()
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c)(0x53E2FBD9)()
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\queue.c)(0x53E2FBD9)()
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\tasks.c)(0x53E2FBD9)()
+F (.\FreeRTOSConfig.h)(0x540FE4A0)()
+F (.\m4_freertos.c)(0x540FE4A0)()
+F (.\usbdsdcard.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\usbdsdcard.o --omf_browse .\dbg\usbdsdcard.crf --depend .\dbg\usbdsdcard.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\systick.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\usblib.h)(0x53E2FBDF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\usb-ids.h)(0x53E2FBDF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\device\usbdevice.h)(0x53E2FBE0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\device\usbdevicepriv.h)(0x53E2FBE0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\device\usbdmsc.h)(0x53E2FBE0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\usb_msc_structs.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\diskio.h)(0x540FE499)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\FatFs\integer.h)(0x540FE49A)
+F (.\usb_msc_structs.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\usb_msc_structs.o --omf_browse .\dbg\usb_msc_structs.crf --depend .\dbg\usb_msc_structs.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\usb.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\usblib.h)(0x53E2FBDF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\usb-ids.h)(0x53E2FBDF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\device\usbdevice.h)(0x53E2FBE0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\device\usbdevicepriv.h)(0x53E2FBE0)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\usblib\device\usbdmsc.h)(0x53E2FBE0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\usb_msc_structs.h)(0x540FE4A0)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\usbdsdcard.h)(0x540FE4A0)
+F (.\usbdsdcard.h)(0x540FE4A0)()
+F (.\usb_msc_structs.h)(0x540FE4A0)()
+F (.\cc1101\CC1100-CC2500.c)(0x540FE4AA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\cc1100-cc2500.o --omf_browse .\dbg\cc1100-cc2500.crf --depend .\dbg\cc1100-cc2500.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\cc1101\CC1100-CC2500.h)(0x540FE4AA)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\cc1101\TI_CC_CC1100-CC2500.h)(0x540FE4AA)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\cc1101\TI_CC_spi.h)(0x540FE4AA)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+F (.\cc1101\TI_CC_spi.c)(0x540FE4AA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\ti_cc_spi.o --omf_browse .\dbg\ti_cc_spi.crf --depend .\dbg\ti_cc_spi.d)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\cc1101\TI_CC_spi.h)(0x540FE4AA)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom_map.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\cc1101\TI_CC_CC1100-CC2500.h)(0x540FE4AA)
+F (.\fb58pid.c)(0x5410322B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\fb58pid.o --omf_browse .\dbg\fb58pid.crf --depend .\dbg\fb58pid.d)
+F (.\fb58pid.h)(0x540FE4A0)()
+F (.\pid_timer.c)(0x540FE4A0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.1.0.12573 -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.1.0.12573\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I "E:\Program Files\MDK\ARM\RV31\INC"-I "E:\Program Files\MDK\ARM\CMSIS\Include"-I "E:\Program Files\MDK\ARM\Inc\Luminary"-Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D_USE_USB -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -o .\dbg\pid_timer.o --omf_browse .\dbg\pid_timer.crf --depend .\dbg\pid_timer.d)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (E:\Program Files\MDK\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ssi.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_ints.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_memmap.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_sysctl.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\inc\hw_types.h)(0x53E2FBCF)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\debug.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\gpio.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\ssi.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\interrupt.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\pin_map.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rom.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\sysctl.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\udma.h)(0x53E2FB9A)
+I (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\timer.h)(0x53E2FB9A)
+I (D:\Tiva_Experiment\pxj\PID_DYTiva\DYTiva\M4MP3\fb58pid.h)(0x540FE4A0)

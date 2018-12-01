@@ -1,0 +1,9 @@
+.\sysexc.o: ..\driverlib\sysexc.c
+.\sysexc.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\sysexc.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\sysexc.o: ..\..\SDcard\inc/hw_ints.h
+.\sysexc.o: ..\..\SDcard\inc/hw_sysctl.h
+.\sysexc.o: ..\..\SDcard\inc/hw_sysexc.h
+.\sysexc.o: ..\..\SDcard\inc/hw_types.h
+.\sysexc.o: ..\..\SDcard\driverlib/debug.h
+.\sysexc.o: ..\..\SDcard\driverlib/interrupt.h

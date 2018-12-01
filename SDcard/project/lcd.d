@@ -1,0 +1,11 @@
+.\lcd.o: ..\driverlib\lcd.c
+.\lcd.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\lcd.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\lcd.o: ..\..\SDcard\inc/hw_memmap.h
+.\lcd.o: ..\..\SDcard\inc/hw_types.h
+.\lcd.o: ..\..\SDcard\inc/hw_ints.h
+.\lcd.o: ..\..\SDcard\inc/hw_lcd.h
+.\lcd.o: ..\..\SDcard\driverlib/interrupt.h
+.\lcd.o: ..\..\SDcard\driverlib/sysctl.h
+.\lcd.o: ..\..\SDcard\driverlib/lcd.h
+.\lcd.o: ..\..\SDcard\driverlib/debug.h

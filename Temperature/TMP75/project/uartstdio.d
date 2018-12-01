@@ -1,0 +1,15 @@
+.\uartstdio.o: ..\utils\uartstdio.c
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\uartstdio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdarg.h
+.\uartstdio.o: ..\..\TMP75\inc/hw_ints.h
+.\uartstdio.o: ..\..\TMP75\inc/hw_memmap.h
+.\uartstdio.o: ..\..\TMP75\inc/hw_types.h
+.\uartstdio.o: ..\..\TMP75\inc/hw_uart.h
+.\uartstdio.o: ..\..\TMP75\driverlib/debug.h
+.\uartstdio.o: ..\..\TMP75\driverlib/interrupt.h
+.\uartstdio.o: ..\..\TMP75\driverlib/rom.h
+.\uartstdio.o: ..\..\TMP75\driverlib/rom_map.h
+.\uartstdio.o: ..\..\TMP75\driverlib/sysctl.h
+.\uartstdio.o: ..\..\TMP75\driverlib/uart.h
+.\uartstdio.o: ..\..\TMP75\utils/uartstdio.h

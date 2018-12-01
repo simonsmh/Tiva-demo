@@ -1,0 +1,16 @@
+.\m4_app_cli.o: m4_app_cli.c
+.\m4_app_cli.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\m4_app_cli.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\m4_app_cli.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdarg.h
+.\m4_app_cli.o: inc/hw_memmap.h
+.\m4_app_cli.o: driverlib/rom.h
+.\m4_app_cli.o: driverlib/adc.h
+.\m4_app_cli.o: inc/hw_ints.h
+.\m4_app_cli.o: driverlib/interrupt.h
+.\m4_app_cli.o: driverlib/systick.h
+.\m4_app_cli.o: driverlib/timer.h
+.\m4_app_cli.o: FatFs/ff.h
+.\m4_app_cli.o: FatFs/integer.h
+.\m4_app_cli.o: FatFs/ffconf.h
+.\m4_app_cli.o: m4_common.h
+.\m4_app_cli.o: m4_config.h

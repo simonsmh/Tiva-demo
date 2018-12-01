@@ -1,0 +1,96 @@
+Dependencies for Project 'usb_dev_bulk', Target 'usb_dev_bulk': (DO NOT MODIFY !)
+F (..\user\usb_bulk_structs.c)(0x5338BED3)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\USB -I..\..\usb_dev_bulk -I..\inc -I..\driverlib -I..\project -I..\utils -I..\usblib-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED -o .\usb_bulk_structs.o --omf_browse .\usb_bulk_structs.crf --depend .\usb_bulk_structs.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\usb_dev_bulk\inc/hw_types.h)(0x5420C993)
+I (..\..\usb_dev_bulk\driverlib/usb.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\usblib/usblib.h)(0x5338BEEC)
+I (..\..\usb_dev_bulk\usblib/usb-ids.h)(0x5338BEEC)
+I (..\..\usb_dev_bulk\usblib/device/usbdevice.h)(0x5338BEEC)
+I (..\..\usb_dev_bulk\usblib/device/usbdevicepriv.h)(0x5338BEEC)
+I (..\..\usb_dev_bulk\usblib/device/usbdbulk.h)(0x5338BEEC)
+I (..\user\usb_bulk_structs.h)(0x5338BED3)
+F (..\user\usb_bulk_structs.h)(0x5338BED3)()
+F (..\user\usb_dev_bulk.c)(0x54D422CD)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\USB -I..\..\usb_dev_bulk -I..\inc -I..\driverlib -I..\project -I..\utils -I..\usblib-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED -o .\usb_dev_bulk.o --omf_browse .\usb_dev_bulk.crf --depend .\usb_dev_bulk.d)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (..\..\usb_dev_bulk\inc/hw_ints.h)(0x5420C993)
+I (..\..\usb_dev_bulk\inc/hw_memmap.h)(0x5420C993)
+I (..\..\usb_dev_bulk\inc/hw_types.h)(0x5420C993)
+I (..\..\usb_dev_bulk\driverlib/debug.h)(0x5420C97D)
+I (..\..\usb_dev_bulk\driverlib/fpu.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/gpio.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/interrupt.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/pin_map.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/sysctl.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/systick.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/timer.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/uart.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/rom.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\usblib/usblib.h)(0x5338BEEC)
+I (..\..\usb_dev_bulk\usblib/usb-ids.h)(0x5338BEEC)
+I (..\..\usb_dev_bulk\usblib/device/usbdevice.h)(0x5338BEEC)
+I (..\..\usb_dev_bulk\usblib/device/usbdevicepriv.h)(0x5338BEEC)
+I (..\..\usb_dev_bulk\usblib/device/usbdbulk.h)(0x5338BEEC)
+I (..\..\usb_dev_bulk\utils/uartstdio.h)(0x5420C99E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (..\..\usb_dev_bulk\utils/ustdlib.h)(0x5420C99E)
+I (D:\keilv5\ARM\ARMCC\include\time.h)(0x52FDD27E)
+I (..\user\usb_bulk_structs.h)(0x5338BED3)
+F (..\driverlib\driverlib.lib)(0x53DB2F25)()
+F (..\inc\asmdefs.h)(0x5420C993)()
+F (..\inc\hw_adc.h)(0x5420C993)()
+F (..\inc\hw_aes.h)(0x5420C993)()
+F (..\inc\hw_can.h)(0x5420C993)()
+F (..\inc\hw_ccm.h)(0x5420C993)()
+F (..\inc\hw_comp.h)(0x5420C993)()
+F (..\inc\hw_des.h)(0x5420C993)()
+F (..\inc\hw_eeprom.h)(0x5420C993)()
+F (..\inc\hw_emac.h)(0x5420C993)()
+F (..\inc\hw_epi.h)(0x5420C993)()
+F (..\inc\hw_fan.h)(0x5420C993)()
+F (..\inc\hw_flash.h)(0x5420C993)()
+F (..\inc\hw_gpio.h)(0x5420C993)()
+F (..\inc\hw_hibernate.h)(0x5420C993)()
+F (..\inc\hw_i2c.h)(0x5420C993)()
+F (..\inc\hw_ints.h)(0x5420C993)()
+F (..\inc\hw_lcd.h)(0x5420C993)()
+F (..\inc\hw_memmap.h)(0x5420C993)()
+F (..\inc\hw_nvic.h)(0x5420C993)()
+F (..\inc\hw_pwm.h)(0x5420C993)()
+F (..\inc\hw_qei.h)(0x5420C993)()
+F (..\inc\hw_shamd5.h)(0x5420C993)()
+F (..\inc\hw_ssi.h)(0x5420C993)()
+F (..\inc\hw_sysctl.h)(0x5420C993)()
+F (..\inc\hw_sysexc.h)(0x5420C993)()
+F (..\inc\hw_timer.h)(0x5420C993)()
+F (..\inc\hw_types.h)(0x5420C993)()
+F (..\inc\hw_uart.h)(0x5420C993)()
+F (..\inc\hw_udma.h)(0x5420C993)()
+F (..\inc\hw_usb.h)(0x5420C993)()
+F (..\inc\hw_watchdog.h)(0x5420C993)()
+F (..\inc\tm4c123gh6pm.h)(0x5338BEE1)()
+F (..\start-up\startup_rvmdk.S)(0x54D41CE6)(--cpu Cortex-M4.fp -g --apcs=interwork -I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123--list .\startup_rvmdk.lst --xref -o .\startup_rvmdk.o --depend .\startup_rvmdk.d)
+F (..\utils\uartstdio.c)(0x5420C99E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\USB -I..\..\usb_dev_bulk -I..\inc -I..\driverlib -I..\project -I..\utils -I..\usblib-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED -o .\uartstdio.o --omf_browse .\uartstdio.crf --depend .\uartstdio.d)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (..\..\usb_dev_bulk\inc/hw_ints.h)(0x5420C993)
+I (..\..\usb_dev_bulk\inc/hw_memmap.h)(0x5420C993)
+I (..\..\usb_dev_bulk\inc/hw_types.h)(0x5420C993)
+I (..\..\usb_dev_bulk\inc/hw_uart.h)(0x5420C993)
+I (..\..\usb_dev_bulk\driverlib/debug.h)(0x5420C97D)
+I (..\..\usb_dev_bulk\driverlib/interrupt.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/rom.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/rom_map.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/sysctl.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\driverlib/uart.h)(0x5420C97E)
+I (..\..\usb_dev_bulk\utils/uartstdio.h)(0x5420C99E)
+F (..\utils\ustdlib.c)(0x5420C99E)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\USB -I..\..\usb_dev_bulk -I..\inc -I..\driverlib -I..\project -I..\utils -I..\usblib-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1 -DUART_BUFFERED -o .\ustdlib.o --omf_browse .\ustdlib.crf --depend .\ustdlib.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\usb_dev_bulk\driverlib/debug.h)(0x5420C97D)
+I (..\..\usb_dev_bulk\utils/ustdlib.h)(0x5420C99E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\time.h)(0x52FDD27E)
+F (..\usblib\usblib.lib)(0x5338BEEC)()

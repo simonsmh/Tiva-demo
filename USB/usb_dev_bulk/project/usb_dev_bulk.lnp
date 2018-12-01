@@ -1,0 +1,12 @@
+--cpu Cortex-M4.fp
+".\usb_bulk_structs.o"
+".\usb_dev_bulk.o"
+"..\driverlib\driverlib.lib"
+".\startup_rvmdk.o"
+".\uartstdio.o"
+".\ustdlib.o"
+"..\usblib\usblib.lib"
+--strict --scatter ".\usb_dev_bulk.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\usb_dev_bulk.map" -o .\usb_dev_bulk.axf

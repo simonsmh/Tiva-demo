@@ -1,0 +1,8 @@
+--cpu Cortex-M4.fp
+".\main.o"
+"..\driverlib\driverlib.lib"
+".\startup_rvmdk.o"
+--strict --scatter ".\AC.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\AC.map" -o .\AC.axf

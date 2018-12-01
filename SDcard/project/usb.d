@@ -1,0 +1,13 @@
+.\usb.o: ..\driverlib\usb.c
+.\usb.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\usb.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\usb.o: ..\..\SDcard\inc/hw_ints.h
+.\usb.o: ..\..\SDcard\inc/hw_memmap.h
+.\usb.o: ..\..\SDcard\inc/hw_types.h
+.\usb.o: ..\..\SDcard\inc/hw_sysctl.h
+.\usb.o: ..\..\SDcard\inc/hw_usb.h
+.\usb.o: ..\..\SDcard\driverlib/debug.h
+.\usb.o: ..\..\SDcard\driverlib/interrupt.h
+.\usb.o: ..\..\SDcard\driverlib/sysctl.h
+.\usb.o: ..\..\SDcard\driverlib/udma.h
+.\usb.o: ..\..\SDcard\driverlib/usb.h

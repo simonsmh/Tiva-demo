@@ -1,0 +1,9 @@
+--cpu Cortex-M4.fp
+".\main.o"
+".\sdc.o"
+"..\driverlib\driverlib.lib"
+".\startup_rvmdk.o"
+".\uartstdio.o"
+".\ff.o"
+--strict --scatter ".\SDcard.sct"
+--summary_stderr --info summarysizes -o .\SDcard.axf

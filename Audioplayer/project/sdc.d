@@ -1,0 +1,13 @@
+.\sdc.o: ..\user\sdc.c
+.\sdc.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\sdc.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\sdc.o: ..\..\Audioplayer\inc/hw_memmap.h
+.\sdc.o: ..\..\Audioplayer\inc/hw_types.h
+.\sdc.o: ..\..\Audioplayer\driverlib/gpio.h
+.\sdc.o: ..\..\Audioplayer\driverlib/rom.h
+.\sdc.o: ..\..\Audioplayer\driverlib/ssi.h
+.\sdc.o: ..\..\Audioplayer\driverlib/sysctl.h
+.\sdc.o: ..\..\Audioplayer\driverlib/interrupt.h
+.\sdc.o: ..\..\Audioplayer\fatfs/diskio.h
+.\sdc.o: ..\..\Audioplayer\fatfs/integer.h
+.\sdc.o: ..\..\Audioplayer\driverlib/pin_map.h

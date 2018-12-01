@@ -1,0 +1,327 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\hejiajie\Desktop\多功能信号发生器\M4MP3\M4MP3.uvproj
+Project File Date:  09/15/2014
+
+<h2>Output:</h2>
+Build target 'M4MP3'
+compiling m4_pinmux.c...
+m4_pinmux.c(42): error:  #5: cannot open source input file "inc/hw_types.h": No such file or directory
+m4_pinmux.c:   #include "inc/hw_types.h"
+m4_pinmux.c:                            ^
+m4_pinmux.c: m4_pinmux.c: 0 warnings, 1 error
+compiling m4_uart.c...
+m4_uart.c(5): error:  #5: cannot open source input file "inc/hw_ints.h": No such file or directory
+m4_uart.c:   #include "inc/hw_ints.h"
+m4_uart.c:                           ^
+m4_uart.c: m4_uart.c: 0 warnings, 1 error
+compiling m4_temp.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_temp.c(20): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+m4_temp.c:       temp_degree = ((temp_value >> 8) & 0xFF) + ((float)((temp_value >> 4) & 0xF))*0.0625;
+m4_temp.c:                                                  ^
+m4_temp.c: m4_temp.c: 3 warnings, 0 errors
+compiling m4_codec.c...
+m4_codec.c(5): error:  #5: cannot open source input file "inc/hw_ints.h": No such file or directory
+m4_codec.c:   #include "inc/hw_ints.h"
+m4_codec.c:                           ^
+m4_codec.c: m4_codec.c: 0 warnings, 1 error
+compiling m4_dac.c...
+m4_dac.c(5): error:  #5: cannot open source input file "inc/hw_ints.h": No such file or directory
+m4_dac.c:   #include "inc/hw_ints.h"
+m4_dac.c:                           ^
+m4_dac.c: m4_dac.c: 0 warnings, 1 error
+compiling m4_gpio.c...
+m4_gpio.c(4): error:  #5: cannot open source input file "inc/hw_ints.h": No such file or directory
+m4_gpio.c:   #include "inc/hw_ints.h"
+m4_gpio.c:                           ^
+m4_gpio.c: m4_gpio.c: 0 warnings, 1 error
+compiling m4_lcd.c...
+uc1701.h(8): error:  #5: cannot open source input file "driverlib/sysctl.h": No such file or directory
+uc1701.h:   #include "driverlib/sysctl.h"
+uc1701.h:                                ^
+uc1701.h: m4_lcd.c: 0 warnings, 1 error
+compiling m4_pwm.c...
+compiling m4_main.c...
+m4_main.c(7): error:  #5: cannot open source input file "inc/hw_ints.h": No such file or directory
+m4_main.c:   #include "inc/hw_ints.h"
+m4_main.c:                           ^
+m4_main.c: m4_main.c: 0 warnings, 1 error
+assembling startup_rvmdk.S...
+compiling m4_app_cli.c...
+m4_app_cli.c(5): error:  #5: cannot open source input file "inc/hw_memmap.h": No such file or directory
+m4_app_cli.c:   #include "inc/hw_memmap.h"
+m4_app_cli.c:                             ^
+m4_app_cli.c: m4_app_cli.c: 0 warnings, 1 error
+compiling m4_app_gui.cpp...
+compiling sdc.c...
+sdc.c(16): error:  #5: cannot open source input file "inc/hw_memmap.h": No such file or directory
+sdc.c:   #include "inc/hw_memmap.h"
+sdc.c:                             ^
+sdc.c: sdc.c: 0 warnings, 1 error
+compiling ff.c...
+compiling uc1701.c...
+uc1701.h(8): error:  #5: cannot open source input file "driverlib/sysctl.h": No such file or directory
+uc1701.h:   #include "driverlib/sysctl.h"
+uc1701.h:                                ^
+uc1701.h: uc1701.c: 0 warnings, 1 error
+compiling tlv320aic23b.c...
+tlv320aic23b.c(25): error:  #5: cannot open source input file "inc/hw_memmap.h": No such file or directory
+tlv320aic23b.c:   #include "inc/hw_memmap.h"
+tlv320aic23b.c:                             ^
+tlv320aic23b.c: tlv320aic23b.c: 0 warnings, 1 error
+compiling gt20l16s1y.c...
+gt20l16s1y.c(9): error:  #5: cannot open source input file "inc/hw_memmap.h": No such file or directory
+gt20l16s1y.c:   #include "inc/hw_memmap.h"
+gt20l16s1y.c:                             ^
+gt20l16s1y.c: gt20l16s1y.c: 0 warnings, 1 error
+compiling tmp100.c...
+tmp100.c(9): error:  #5: cannot open source input file "inc/hw_memmap.h": No such file or directory
+tmp100.c:   #include "inc/hw_memmap.h"
+tmp100.c:                             ^
+tmp100.c: tmp100.c: 0 warnings, 1 error
+compiling dac7512.c...
+dac7512.c(5): error:  #5: cannot open source input file "inc/hw_ints.h": No such file or directory
+dac7512.c:   #include "inc/hw_ints.h"
+dac7512.c:                           ^
+dac7512.c: dac7512.c: 0 warnings, 1 error
+Target not created
+Build target 'M4MP3'
+compiling m4_pinmux.c...
+m4_pinmux.c(45): error:  #5: cannot open source input file "driverlib/sysctl.h": No such file or directory
+m4_pinmux.c:   #include "driverlib/sysctl.h"
+m4_pinmux.c:                                ^
+m4_pinmux.c: m4_pinmux.c: 0 warnings, 1 error
+compiling m4_uart.c...
+m4_uart.c(7): error:  #5: cannot open source input file "driverlib/debug.h": No such file or directory
+m4_uart.c:   #include "driverlib/debug.h"
+m4_uart.c:                               ^
+m4_uart.c: m4_uart.c: 0 warnings, 1 error
+compiling m4_temp.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_temp.c(20): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+m4_temp.c:       temp_degree = ((temp_value >> 8) & 0xFF) + ((float)((temp_value >> 4) & 0xF))*0.0625;
+m4_temp.c:                                                  ^
+m4_temp.c: m4_temp.c: 3 warnings, 0 errors
+compiling m4_codec.c...
+m4_codec.c(7): error:  #5: cannot open source input file "driverlib/adc.h": No such file or directory
+m4_codec.c:   #include "driverlib/adc.h"
+m4_codec.c:                             ^
+m4_codec.c: m4_codec.c: 0 warnings, 1 error
+compiling m4_dac.c...
+m4_dac.c(7): error:  #5: cannot open source input file "driverlib/adc.h": No such file or directory
+m4_dac.c:   #include "driverlib/adc.h"
+m4_dac.c:                             ^
+m4_dac.c: m4_dac.c: 0 warnings, 1 error
+compiling m4_gpio.c...
+m4_gpio.c(8): error:  #5: cannot open source input file "driverlib/debug.h": No such file or directory
+m4_gpio.c:   #include "driverlib/debug.h"
+m4_gpio.c:                               ^
+m4_gpio.c: m4_gpio.c: 0 warnings, 1 error
+compiling m4_lcd.c...
+uc1701.h(8): error:  #5: cannot open source input file "driverlib/sysctl.h": No such file or directory
+uc1701.h:   #include "driverlib/sysctl.h"
+uc1701.h:                                ^
+uc1701.h: m4_lcd.c: 0 warnings, 1 error
+compiling m4_pwm.c...
+compiling m4_main.c...
+m4_main.c(9): error:  #5: cannot open source input file "driverlib/debug.h": No such file or directory
+m4_main.c:   #include "driverlib/debug.h"
+m4_main.c:                               ^
+m4_main.c: m4_main.c: 0 warnings, 1 error
+assembling startup_rvmdk.S...
+compiling m4_app_cli.c...
+m4_app_cli.c(6): error:  #5: cannot open source input file "driverlib/rom.h": No such file or directory
+m4_app_cli.c:   #include "driverlib/rom.h"
+m4_app_cli.c:                             ^
+m4_app_cli.c: m4_app_cli.c: 0 warnings, 1 error
+compiling m4_app_gui.cpp...
+compiling sdc.c...
+sdc.c(19): error:  #5: cannot open source input file "driverlib/gpio.h": No such file or directory
+sdc.c:   #include "driverlib/gpio.h"
+sdc.c:                              ^
+sdc.c: sdc.c: 0 warnings, 1 error
+compiling ff.c...
+compiling uc1701.c...
+uc1701.h(8): error:  #5: cannot open source input file "driverlib/sysctl.h": No such file or directory
+uc1701.h:   #include "driverlib/sysctl.h"
+uc1701.h:                                ^
+uc1701.h: uc1701.c: 0 warnings, 1 error
+compiling tlv320aic23b.c...
+tlv320aic23b.c(28): error:  #5: cannot open source input file "driverlib/gpio.h": No such file or directory
+tlv320aic23b.c:   #include "driverlib/gpio.h"
+tlv320aic23b.c:                              ^
+tlv320aic23b.c: tlv320aic23b.c: 0 warnings, 1 error
+compiling gt20l16s1y.c...
+gt20l16s1y.c(12): error:  #5: cannot open source input file "driverlib/sysctl.h": No such file or directory
+gt20l16s1y.c:   #include "driverlib/sysctl.h"
+gt20l16s1y.c:                                ^
+gt20l16s1y.c: gt20l16s1y.c: 0 warnings, 1 error
+compiling tmp100.c...
+tmp100.c(14): error:  #5: cannot open source input file "driverlib/sysctl.h": No such file or directory
+tmp100.c:   #include "driverlib/sysctl.h"
+tmp100.c:                                ^
+tmp100.c: tmp100.c: 0 warnings, 1 error
+compiling dac7512.c...
+dac7512.c(9): error:  #5: cannot open source input file "driverlib/sysctl.h": No such file or directory
+dac7512.c:   #include "driverlib/sysctl.h"
+dac7512.c:                                ^
+dac7512.c: dac7512.c: 0 warnings, 1 error
+Target not created
+Build target 'M4MP3'
+compiling m4_pinmux.c...
+compiling m4_uart.c...
+compiling m4_temp.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_temp.c(20): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+m4_temp.c:       temp_degree = ((temp_value >> 8) & 0xFF) + ((float)((temp_value >> 4) & 0xF))*0.0625;
+m4_temp.c:                                                  ^
+m4_temp.c: m4_temp.c: 3 warnings, 0 errors
+compiling m4_codec.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_codec.c(82): warning:  #550-D: variable "fr" was set but never used
+m4_codec.c:       FRESULT fr;
+m4_codec.c:               ^
+m4_codec.c(120): warning:  #177-D: variable "f_result" was declared but never referenced
+m4_codec.c:       FRESULT f_result;
+m4_codec.c:               ^
+m4_codec.c(121): warning:  #177-D: variable "f_nfo" was declared but never referenced
+m4_codec.c:       FILINFO f_nfo;
+m4_codec.c:               ^
+m4_codec.c(122): warning:  #177-D: variable "f_name" was declared but never referenced
+m4_codec.c:       char *f_name;
+m4_codec.c:             ^
+m4_codec.c(154): warning:  #177-D: variable "wave_freq" was declared but never referenced
+m4_codec.c:       uint16_t wave_freq = 0;
+m4_codec.c:                ^
+m4_codec.c(156): warning:  #177-D: variable "file" was declared but never referenced
+m4_codec.c:       FIL file;
+m4_codec.c:           ^
+m4_codec.c(157): warning:  #177-D: variable "file_result" was declared but never referenced
+m4_codec.c:       FRESULT file_result;
+m4_codec.c:               ^
+m4_codec.c: m4_codec.c: 9 warnings, 0 errors
+compiling m4_dac.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_common.h: m4_dac.c: 2 warnings, 0 errors
+compiling m4_gpio.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_common.h: m4_gpio.c: 2 warnings, 0 errors
+compiling m4_lcd.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_common.h: m4_lcd.c: 2 warnings, 0 errors
+compiling m4_pwm.c...
+compiling m4_main.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_ver.h(2): warning:  #47-D: incompatible redefinition of macro "BUILD_NUM" (declared at line 1)
+m4_ver.h:   #define BUILD_NUM 
+m4_ver.h:           ^
+m4_main.c(24): warning:  #1295-D: Deprecated declaration app_main_gui - give arg types
+m4_main.c:   extern void app_main_gui();
+m4_main.c:               ^
+m4_main.c(103): warning:  #223-D: function "PortFunctionInit" declared implicitly
+m4_main.c:       PortFunctionInit();
+m4_main.c:       ^
+m4_main.c(86): warning:  #177-D: variable "abc" was declared but never referenced
+m4_main.c:       char abc = 'a';
+m4_main.c:            ^
+m4_main.c: m4_main.c: 6 warnings, 0 errors
+assembling startup_rvmdk.S...
+compiling m4_app_cli.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_app_cli.c(136): warning:  #223-D: function "UC1701FontDisplay" declared implicitly
+m4_app_cli.c:           UC1701FontDisplay(2,0,16,16,juchibuff1);
+m4_app_cli.c:           ^
+m4_app_cli.c(141): warning:  #223-D: function "SysCtlClockGet" declared implicitly
+m4_app_cli.c:           TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet()/20000);
+m4_app_cli.c:                                              ^
+m4_app_cli.c(150): warning:  #223-D: function "UC1701FontDisplay" declared implicitly
+m4_app_cli.c:           UC1701FontDisplay(2,0,16,16,sanjiaobuff1);
+m4_app_cli.c:           ^
+m4_app_cli.c(153): warning:  #223-D: function "SysCtlClockGet" declared implicitly
+m4_app_cli.c:           TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet()/20000);
+m4_app_cli.c:                                              ^
+m4_app_cli.c(162): warning:  #223-D: function "UC1701FontDisplay" declared implicitly
+m4_app_cli.c:           UC1701FontDisplay(2, 0, 16, 16,fangbobuff1);
+m4_app_cli.c:           ^
+m4_app_cli.c(167): warning:  #223-D: function "SysCtlClockGet" declared implicitly
+m4_app_cli.c:           TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet()/2000);
+m4_app_cli.c:                                              ^
+m4_app_cli.c(176): warning:  #223-D: function "UC1701FontDisplay" declared implicitly
+m4_app_cli.c:            UC1701FontDisplay(2,0,16,16,sinbuff1);
+m4_app_cli.c:            ^
+m4_app_cli.c(181): warning:  #223-D: function "SysCtlClockGet" declared implicitly
+m4_app_cli.c:            TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet()/10000);
+m4_app_cli.c:                                               ^
+m4_app_cli.c: m4_app_cli.c: 10 warnings, 0 errors
+compiling m4_app_gui.cpp...
+compiling sdc.c...
+compiling ff.c...
+compiling uc1701.c...
+compiling tlv320aic23b.c...
+compiling gt20l16s1y.c...
+compiling tmp100.c...
+compiling dac7512.c...
+m4_common.h(108): warning:  #1295-D: Deprecated declaration ac_init - give arg types
+m4_common.h:   extern void ac_init();
+m4_common.h:               ^
+m4_common.h(109): warning:  #1295-D: Deprecated declaration ac_get - give arg types
+m4_common.h:   extern bool ac_get();
+m4_common.h:               ^
+m4_common.h: dac7512.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11412 RO-data=816 RW-data=3692 ZI-data=4100  
+User command #1: fromelf --bin --output .\M4MP3.bin .\M4MP3.axf
+"M4MP3.axf" - 0 Error(s), 36 Warning(s).
+Load "C:\\Users\\hejiajie\\Desktop\\多功能信号发生器\\M4MP3\\M4MP3.AXF" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.

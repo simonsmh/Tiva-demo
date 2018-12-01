@@ -1,0 +1,11 @@
+.\main.o: ..\user\main.c
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\main.o: ..\..\EEPROM\inc/hw_types.h
+.\main.o: ..\..\EEPROM\inc/hw_memmap.h
+.\main.o: ..\..\EEPROM\driverlib/sysctl.h
+.\main.o: ..\..\EEPROM\driverlib/pin_map.h
+.\main.o: ..\..\EEPROM\driverlib/debug.h
+.\main.o: ..\..\EEPROM\driverlib/gpio.h
+.\main.o: ..\..\EEPROM\driverlib/flash.h
+.\main.o: ..\..\EEPROM\driverlib/eeprom.h

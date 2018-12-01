@@ -1,0 +1,13 @@
+.\fat_usbmsc.o: ..\fatfs\port\fat_usbmsc.c
+.\fat_usbmsc.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\fat_usbmsc.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\fat_usbmsc.o: ..\..\SDcard\inc/hw_types.h
+.\fat_usbmsc.o: ..\..\SDcard\driverlib/sysctl.h
+.\fat_usbmsc.o: ..\..\SDcard\usblib/usblib.h
+.\fat_usbmsc.o: ..\..\SDcard\usblib/usbmsc.h
+.\fat_usbmsc.o: ..\..\SDcard\usblib/host/usbhost.h
+.\fat_usbmsc.o: ..\..\SDcard\usblib/host/usbhmsc.h
+.\fat_usbmsc.o: ..\..\SDcard\fatfs/src/diskio.h
+.\fat_usbmsc.o: ..\..\SDcard\fatfs/src/integer.h
+.\fat_usbmsc.o: ..\..\SDcard\fatfs/src/ff.h
+.\fat_usbmsc.o: ..\..\SDcard\fatfs/src/ffconf.h

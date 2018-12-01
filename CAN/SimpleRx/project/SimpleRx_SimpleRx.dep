@@ -1,0 +1,66 @@
+Dependencies for Project 'SimpleRx', Target 'SimpleRx': (DO NOT MODIFY !)
+F (..\user\main.c)(0x544A3887)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\CAN -I..\..\SimpleRx -I..\inc-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\SimpleRx\inc/hw_can.h)(0x5420C993)
+I (..\..\SimpleRx\inc/hw_ints.h)(0x5420C993)
+I (..\..\SimpleRx\inc/hw_memmap.h)(0x5420C993)
+I (..\..\SimpleRx\inc/hw_types.h)(0x5420C993)
+I (..\..\SimpleRx\driverlib/can.h)(0x5420C97D)
+I (..\..\SimpleRx\driverlib/gpio.h)(0x5420C97E)
+I (..\..\SimpleRx\driverlib/interrupt.h)(0x5420C97E)
+I (..\..\SimpleRx\driverlib/pin_map.h)(0x5420C97E)
+I (..\..\SimpleRx\driverlib/sysctl.h)(0x5420C97E)
+I (..\..\SimpleRx\driverlib/uart.h)(0x5420C97E)
+I (..\..\SimpleRx\utils/uartstdio.h)(0x5420C99E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+F (..\driverlib\driverlib.lib)(0x53DB2F25)()
+F (..\inc\asmdefs.h)(0x5420C993)()
+F (..\inc\hw_adc.h)(0x5420C993)()
+F (..\inc\hw_aes.h)(0x5420C993)()
+F (..\inc\hw_can.h)(0x5420C993)()
+F (..\inc\hw_ccm.h)(0x5420C993)()
+F (..\inc\hw_comp.h)(0x5420C993)()
+F (..\inc\hw_des.h)(0x5420C993)()
+F (..\inc\hw_eeprom.h)(0x5420C993)()
+F (..\inc\hw_emac.h)(0x5420C993)()
+F (..\inc\hw_epi.h)(0x5420C993)()
+F (..\inc\hw_fan.h)(0x5420C993)()
+F (..\inc\hw_flash.h)(0x5420C993)()
+F (..\inc\hw_gpio.h)(0x5420C993)()
+F (..\inc\hw_hibernate.h)(0x5420C993)()
+F (..\inc\hw_i2c.h)(0x5420C993)()
+F (..\inc\hw_ints.h)(0x5420C993)()
+F (..\inc\hw_lcd.h)(0x5420C993)()
+F (..\inc\hw_memmap.h)(0x5420C993)()
+F (..\inc\hw_nvic.h)(0x5420C993)()
+F (..\inc\hw_pwm.h)(0x5420C993)()
+F (..\inc\hw_qei.h)(0x5420C993)()
+F (..\inc\hw_shamd5.h)(0x5420C993)()
+F (..\inc\hw_ssi.h)(0x5420C993)()
+F (..\inc\hw_sysctl.h)(0x5420C993)()
+F (..\inc\hw_sysexc.h)(0x5420C993)()
+F (..\inc\hw_timer.h)(0x5420C993)()
+F (..\inc\hw_types.h)(0x5420C993)()
+F (..\inc\hw_uart.h)(0x5420C993)()
+F (..\inc\hw_udma.h)(0x5420C993)()
+F (..\inc\hw_usb.h)(0x5420C993)()
+F (..\inc\hw_watchdog.h)(0x5420C993)()
+F (..\inc\tm4c123gh6pm.h)(0x5338BEE1)()
+F (..\start-up\startup_rvmdk.S)(0x544A38B1)(--cpu Cortex-M4.fp -g --apcs=interwork -I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123--list .\startup_rvmdk.lst --xref -o .\startup_rvmdk.o --depend .\startup_rvmdk.d)
+F (..\utils\uartstdio.c)(0x5420C99E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\..\..\CAN -I..\..\SimpleRx -I..\inc-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -o .\uartstdio.o --omf_browse .\uartstdio.crf --depend .\uartstdio.d)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (..\..\SimpleRx\inc/hw_ints.h)(0x5420C993)
+I (..\..\SimpleRx\inc/hw_memmap.h)(0x5420C993)
+I (..\..\SimpleRx\inc/hw_types.h)(0x5420C993)
+I (..\..\SimpleRx\inc/hw_uart.h)(0x5420C993)
+I (..\..\SimpleRx\driverlib/debug.h)(0x5420C97D)
+I (..\..\SimpleRx\driverlib/interrupt.h)(0x5420C97E)
+I (..\..\SimpleRx\driverlib/rom.h)(0x5420C97E)
+I (..\..\SimpleRx\driverlib/rom_map.h)(0x5420C97E)
+I (..\..\SimpleRx\driverlib/sysctl.h)(0x5420C97E)
+I (..\..\SimpleRx\driverlib/uart.h)(0x5420C97E)
+I (..\..\SimpleRx\utils/uartstdio.h)(0x5420C99E)
+F (..\utils\uartstdio.h)(0x5420C99E)()

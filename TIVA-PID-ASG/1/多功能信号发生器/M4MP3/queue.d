@@ -1,0 +1,12 @@
+.\queue.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\queue.c
+.\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\queue.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\FreeRTOS.h
+.\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\queue.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\projdefs.h
+.\queue.o: .\FreeRTOSConfig.h
+.\queue.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\portable.h
+.\queue.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h
+.\queue.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\mpu_wrappers.h
+.\queue.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\task.h
+.\queue.o: C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include\list.h

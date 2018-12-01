@@ -1,0 +1,10 @@
+.\rvmdk\flash.o: flash.c
+.\rvmdk\flash.o: C:\Keil\ARM\RV31\INC\stdbool.h
+.\rvmdk\flash.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\rvmdk\flash.o: ..\inc/hw_flash.h
+.\rvmdk\flash.o: ..\inc/hw_ints.h
+.\rvmdk\flash.o: ..\inc/hw_sysctl.h
+.\rvmdk\flash.o: ..\inc/hw_types.h
+.\rvmdk\flash.o: ..\driverlib/debug.h
+.\rvmdk\flash.o: ..\driverlib/flash.h
+.\rvmdk\flash.o: ..\driverlib/interrupt.h

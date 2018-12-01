@@ -1,0 +1,59 @@
+Dependencies for Project 'key', Target 'key': (DO NOT MODIFY !)
+F (..\user\main.c)(0x5BFBF31C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -Oz -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../key-IC:/Keil_v5/ARM/RV31/INC-IC:/Keil_v5/ARM/CMSIS/Include-IDevice/Include/TM4C123-D__UVISION_VERSION="526" -Drvmdk -DPART_TM4C123GH6PM-o ./main.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5AB0B844)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5AB0B854)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5AB0B858)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5AB0B854)
+I (..\..\key\inc\hw_memmap.h)(0x5420C994)
+I (..\..\key\inc\hw_types.h)(0x5420C994)
+I (..\..\key\inc\hw_timer.h)(0x5420C994)
+I (..\..\key\inc\hw_ints.h)(0x5420C994)
+I (..\..\key\inc\hw_gpio.h)(0x5420C994)
+I (..\..\key\inc\hw_i2c.h)(0x5420C994)
+I (..\..\key\inc\hw_sysctl.h)(0x5420C994)
+I (..\..\key\driverlib\timer.h)(0x5420C980)
+I (..\..\key\driverlib\interrupt.h)(0x5420C980)
+I (..\..\key\driverlib\sysctl.h)(0x5420C980)
+I (..\..\key\driverlib\systick.h)(0x5420C980)
+I (..\..\key\driverlib\gpio.h)(0x5420C980)
+I (..\..\key\driverlib\pin_map.h)(0x5420C980)
+I (..\..\key\driverlib\ssi.h)(0x5420C980)
+I (..\..\key\driverlib\i2c.h)(0x5420C980)
+I (..\..\key\driverlib\udma.h)(0x5420C980)
+I (..\..\key\driverlib\fpu.h)(0x5420C980)
+I (..\..\key\driverlib\rom.h)(0x5420C980)
+F (..\driverlib\driverlib.lib)(0x53DB2F26)()
+F (..\inc\asmdefs.h)(0x5BFBF302)()
+F (..\inc\hw_adc.h)(0x5420C994)()
+F (..\inc\hw_aes.h)(0x5420C994)()
+F (..\inc\hw_can.h)(0x5420C994)()
+F (..\inc\hw_ccm.h)(0x5420C994)()
+F (..\inc\hw_comp.h)(0x5420C994)()
+F (..\inc\hw_des.h)(0x5420C994)()
+F (..\inc\hw_eeprom.h)(0x5420C994)()
+F (..\inc\hw_emac.h)(0x5420C994)()
+F (..\inc\hw_epi.h)(0x5420C994)()
+F (..\inc\hw_fan.h)(0x5420C994)()
+F (..\inc\hw_flash.h)(0x5420C994)()
+F (..\inc\hw_gpio.h)(0x5420C994)()
+F (..\inc\hw_hibernate.h)(0x5420C994)()
+F (..\inc\hw_i2c.h)(0x5420C994)()
+F (..\inc\hw_ints.h)(0x5420C994)()
+F (..\inc\hw_lcd.h)(0x5420C994)()
+F (..\inc\hw_memmap.h)(0x5420C994)()
+F (..\inc\hw_nvic.h)(0x5420C994)()
+F (..\inc\hw_pwm.h)(0x5420C994)()
+F (..\inc\hw_qei.h)(0x5420C994)()
+F (..\inc\hw_shamd5.h)(0x5420C994)()
+F (..\inc\hw_ssi.h)(0x5420C994)()
+F (..\inc\hw_sysctl.h)(0x5420C994)()
+F (..\inc\hw_sysexc.h)(0x5420C994)()
+F (..\inc\hw_timer.h)(0x5420C994)()
+F (..\inc\hw_types.h)(0x5420C994)()
+F (..\inc\hw_uart.h)(0x5420C994)()
+F (..\inc\hw_udma.h)(0x5420C994)()
+F (..\inc\hw_usb.h)(0x5420C994)()
+F (..\inc\hw_watchdog.h)(0x5420C994)()
+F (..\inc\tm4c123gh6pm.h)(0x5338BEE2)()
+F (..\start-up\startup_rvmdk.S)(0x5435DF0C)(--cpu Cortex-M4.fp -g-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IDevice\Include\TM4C123--pd "__UVISION_VERSION SETA 526"--list .\startup_rvmdk.lst--xref -o .\startup_rvmdk.o--depend .\startup_rvmdk.d)

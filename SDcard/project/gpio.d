@@ -1,0 +1,11 @@
+.\gpio.o: ..\driverlib\gpio.c
+.\gpio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\gpio.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\gpio.o: ..\..\SDcard\inc/hw_gpio.h
+.\gpio.o: ..\..\SDcard\inc/hw_ints.h
+.\gpio.o: ..\..\SDcard\inc/hw_memmap.h
+.\gpio.o: ..\..\SDcard\inc/hw_sysctl.h
+.\gpio.o: ..\..\SDcard\inc/hw_types.h
+.\gpio.o: ..\..\SDcard\driverlib/debug.h
+.\gpio.o: ..\..\SDcard\driverlib/gpio.h
+.\gpio.o: ..\..\SDcard\driverlib/interrupt.h

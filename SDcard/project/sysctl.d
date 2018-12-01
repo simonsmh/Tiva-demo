@@ -1,0 +1,12 @@
+.\sysctl.o: ..\driverlib\sysctl.c
+.\sysctl.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\sysctl.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\sysctl.o: ..\..\SDcard\inc/hw_ints.h
+.\sysctl.o: ..\..\SDcard\inc/hw_nvic.h
+.\sysctl.o: ..\..\SDcard\inc/hw_sysctl.h
+.\sysctl.o: ..\..\SDcard\inc/hw_types.h
+.\sysctl.o: ..\..\SDcard\inc/hw_flash.h
+.\sysctl.o: ..\..\SDcard\driverlib/cpu.h
+.\sysctl.o: ..\..\SDcard\driverlib/debug.h
+.\sysctl.o: ..\..\SDcard\driverlib/interrupt.h
+.\sysctl.o: ..\..\SDcard\driverlib/sysctl.h

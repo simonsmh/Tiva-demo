@@ -1,0 +1,38 @@
+*** Creating Trace Output File 'M4MP3.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"m4_pinmux.o"'
+### List of Objects: adding '"m4_uart.o"'
+### List of Objects: adding '"m4_temp.o"'
+### List of Objects: adding '"m4_codec.o"'
+### List of Objects: adding '"m4_dac.o"'
+### List of Objects: adding '"m4_gpio.o"'
+### List of Objects: adding '"m4_lcd.o"'
+### List of Objects: adding '"m4_pwm.o"'
+### List of Objects: adding '"m4_main.o"'
+### List of Objects: adding '"startup_rvmdk.o"'
+### List of Objects: adding '"m4_app_cli.o"'
+### List of Objects: adding '"m4_app_gui.o"'
+### List of Objects: adding '"sdc.o"'
+### List of Objects: adding '"ff.o"'
+### List of Objects: adding '"uc1701.o"'
+### List of Objects: adding '"tlv320aic23b.o"'
+### List of Objects: adding '"gt20l16s1y.o"'
+### List of Objects: adding '"tmp100.o"'
+### List of Objects: adding '"dac7512.o"'
+### List of Objects: adding '"D:\实验室项目\Tiva\launchpad\TivaWare_C_Series-1.0\TivaWare_C_Series-1.0\driverlib\rvmdk\driverlib.lib"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "m4_pinmux.o" "m4_uart.o" "m4_temp.o" "m4_codec.o" "m4_dac.o" "m4_gpio.o" "m4_lcd.o" "m4_pwm.o" "m4_main.o" "startup_rvmdk.o" "m4_app_cli.o" "m4_app_gui.o" "sdc.o" "ff.o" "uc1701.o" "tlv320aic23b.o" "gt20l16s1y.o" "tmp100.o" "dac7512.o" "D:\实验室项目\Tiva\launchpad\TivaWare_C_Series-1.0\TivaWare_C_Series-1.0\driverlib\rvmdk\driverlib.lib" "C:\Keil\ARM\RV31\LIB\RTX_CM4.LIB" --library_type=microlib --strict --scatter "M4MP3.sct" 
+--entry Reset_Handler --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\M4MP3.map" -o "M4MP3.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'M4MP3.axf'
+### ADS-LD Command File: 'M4MP3.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'M4MP3.lnp', Handle=0x00000A48
+### Writing '.lnp' file
+### ADS-LD Command file 'M4MP3.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

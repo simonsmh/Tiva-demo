@@ -1,0 +1,9 @@
+.\mpu.o: ..\driverlib\mpu.c
+.\mpu.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdbool.h
+.\mpu.o: D:\keilv5\ARM\ARMCC\bin\..\include\stdint.h
+.\mpu.o: ..\..\SDcard\inc/hw_ints.h
+.\mpu.o: ..\..\SDcard\inc/hw_nvic.h
+.\mpu.o: ..\..\SDcard\inc/hw_types.h
+.\mpu.o: ..\..\SDcard\driverlib/debug.h
+.\mpu.o: ..\..\SDcard\driverlib/interrupt.h
+.\mpu.o: ..\..\SDcard\driverlib/mpu.h

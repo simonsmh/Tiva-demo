@@ -1,0 +1,329 @@
+Dependencies for Project 'M4MP3', Target 'M4MP3': (DO NOT MODIFY !)
+F (.\m4_pinmux.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_pinmux.o --omf_browse .\m4_pinmux.crf --depend .\m4_pinmux.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (m4_pinmux.h)(0x54168D43)
+I (inc/hw_types.h)(0x54168D51)
+I (inc/hw_memmap.h)(0x54168D51)
+I (inc/hw_gpio.h)(0x54168D50)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (driverlib/pin_map.h)(0x54168D6D)
+I (driverlib/rom_map.h)(0x54168D6D)
+I (driverlib/gpio.h)(0x54168D6C)
+F (.\m4_uart.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_uart.o --omf_browse .\m4_uart.crf --depend .\m4_uart.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (inc/hw_ints.h)(0x54168D51)
+I (inc/hw_memmap.h)(0x54168D51)
+I (driverlib/debug.h)(0x54168D51)
+I (driverlib/fpu.h)(0x54168D6C)
+I (driverlib/gpio.h)(0x54168D6C)
+I (driverlib/interrupt.h)(0x54168D6D)
+I (driverlib/pin_map.h)(0x54168D6D)
+I (driverlib/rom.h)(0x54168D6D)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (driverlib/uart.h)(0x54168D6D)
+F (.\m4_temp.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_temp.o --omf_browse .\m4_temp.crf --depend .\m4_temp.d)
+I (D:\keilv5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (m4_config.h)(0x54169B7B)
+I (m4_common.h)(0x54168D43)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (FatFs/ff.h)(0x54168D51)
+I (FatFs/integer.h)(0x54168D51)
+I (FatFs/ffconf.h)(0x54168D51)
+I (tmp100.h)(0x54168D4F)
+F (.\m4_codec.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_codec.o --omf_browse .\m4_codec.crf --depend .\m4_codec.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+I (inc/hw_ints.h)(0x54168D51)
+I (inc/hw_memmap.h)(0x54168D51)
+I (driverlib/adc.h)(0x54168D51)
+I (driverlib/debug.h)(0x54168D51)
+I (driverlib/fpu.h)(0x54168D6C)
+I (driverlib/gpio.h)(0x54168D6C)
+I (driverlib/interrupt.h)(0x54168D6D)
+I (driverlib/pin_map.h)(0x54168D6D)
+I (driverlib/rom.h)(0x54168D6D)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (driverlib/ssi.h)(0x54168D6D)
+I (driverlib/rom_map.h)(0x54168D6D)
+I (driverlib/timer.h)(0x54168D6D)
+I (m4_config.h)(0x54169B7B)
+I (m4_common.h)(0x54168D43)
+I (FatFs/ff.h)(0x54168D51)
+I (FatFs/integer.h)(0x54168D51)
+I (FatFs/ffconf.h)(0x54168D51)
+I (tlv320aic23b.h)(0x54168D43)
+F (.\m4_dac.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_dac.o --omf_browse .\m4_dac.crf --depend .\m4_dac.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+I (inc/hw_ints.h)(0x54168D51)
+I (inc/hw_memmap.h)(0x54168D51)
+I (driverlib/adc.h)(0x54168D51)
+I (driverlib/debug.h)(0x54168D51)
+I (driverlib/fpu.h)(0x54168D6C)
+I (driverlib/gpio.h)(0x54168D6C)
+I (driverlib/interrupt.h)(0x54168D6D)
+I (driverlib/pin_map.h)(0x54168D6D)
+I (driverlib/rom.h)(0x54168D6D)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (driverlib/ssi.h)(0x54168D6D)
+I (m4_common.h)(0x54168D43)
+I (FatFs/ff.h)(0x54168D51)
+I (FatFs/integer.h)(0x54168D51)
+I (FatFs/ffconf.h)(0x54168D51)
+I (m4_config.h)(0x54169B7B)
+I (dac7512.h)(0x54168D41)
+F (.\m4_gpio.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_gpio.o --omf_browse .\m4_gpio.crf --depend .\m4_gpio.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (inc/hw_ints.h)(0x54168D51)
+I (inc/hw_memmap.h)(0x54168D51)
+I (inc/hw_gpio.h)(0x54168D50)
+I (inc/hw_types.h)(0x54168D51)
+I (driverlib/debug.h)(0x54168D51)
+I (driverlib/fpu.h)(0x54168D6C)
+I (driverlib/gpio.h)(0x54168D6C)
+I (driverlib/interrupt.h)(0x54168D6D)
+I (driverlib/pin_map.h)(0x54168D6D)
+I (driverlib/rom.h)(0x54168D6D)
+I (driverlib/rom_map.h)(0x54168D6D)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (m4_config.h)(0x54169B7B)
+I (m4_common.h)(0x54168D43)
+I (FatFs/ff.h)(0x54168D51)
+I (FatFs/integer.h)(0x54168D51)
+I (FatFs/ffconf.h)(0x54168D51)
+F (.\m4_lcd.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_lcd.o --omf_browse .\m4_lcd.crf --depend .\m4_lcd.d)
+I (D:\keilv5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (uc1701.h)(0x54168D4F)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (hw_uc1701.h)(0x54168D41)
+I (gt20l16s1y.h)(0x54168D41)
+I (m4_config.h)(0x54169B7B)
+I (m4_common.h)(0x54168D43)
+I (FatFs/ff.h)(0x54168D51)
+I (FatFs/integer.h)(0x54168D51)
+I (FatFs/ffconf.h)(0x54168D51)
+F (.\m4_pwm.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_pwm.o --omf_browse .\m4_pwm.crf --depend .\m4_pwm.d)
+F (.\m4_common.h)(0x54168D43)()
+F (.\m4_config.h)(0x54169B7B)()
+F (.\m4_main.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_main.o --omf_browse .\m4_main.crf --depend .\m4_main.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (inc/hw_ints.h)(0x54168D51)
+I (inc/hw_memmap.h)(0x54168D51)
+I (driverlib/debug.h)(0x54168D51)
+I (driverlib/fpu.h)(0x54168D6C)
+I (driverlib/gpio.h)(0x54168D6C)
+I (driverlib/interrupt.h)(0x54168D6D)
+I (driverlib/pin_map.h)(0x54168D6D)
+I (driverlib/rom.h)(0x54168D6D)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (driverlib/systick.h)(0x54168D6D)
+I (driverlib/uart.h)(0x54168D6D)
+I (m4_pinmux.h)(0x54168D43)
+I (m4_common.h)(0x54168D43)
+I (FatFs/ff.h)(0x54168D51)
+I (FatFs/integer.h)(0x54168D51)
+I (FatFs/ffconf.h)(0x54168D51)
+I (m4_config.h)(0x54169B7B)
+I (m4_ver.h)(0x54168D43)
+F (.\startup_rvmdk.S)(0x54168D43)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123--pd "_M4_RTX SETA 1" --pd "_M4_FREERTOS SETA 1" -o .\startup_rvmdk.o --depend .\startup_rvmdk.d)
+F (.\m4_app_cli.c)(0x541901FE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_app_cli.o --omf_browse .\m4_app_cli.crf --depend .\m4_app_cli.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (inc/hw_memmap.h)(0x54168D51)
+I (driverlib/rom.h)(0x54168D6D)
+I (driverlib/adc.h)(0x54168D51)
+I (inc/hw_ints.h)(0x54168D51)
+I (driverlib/interrupt.h)(0x54168D6D)
+I (driverlib/systick.h)(0x54168D6D)
+I (driverlib/timer.h)(0x54168D6D)
+I (FatFs/ff.h)(0x54168D51)
+I (FatFs/integer.h)(0x54168D51)
+I (FatFs/ffconf.h)(0x54168D51)
+I (m4_common.h)(0x54168D43)
+I (m4_config.h)(0x54169B7B)
+F (.\m4_app_gui.cpp)(0x54168D42)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99 --cpp-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\m4_app_gui.o --omf_browse .\m4_app_gui.crf --depend .\m4_app_gui.d)
+F (.\m4_app_res.h)(0x54168D43)()
+F (.\m4_ver.h)(0x54168D43)()
+F (.\sdc.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\sdc.o --omf_browse .\sdc.crf --depend .\sdc.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (inc/hw_memmap.h)(0x54168D51)
+I (inc/hw_types.h)(0x54168D51)
+I (driverlib/gpio.h)(0x54168D6C)
+I (driverlib/rom.h)(0x54168D6D)
+I (driverlib/ssi.h)(0x54168D6D)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (fatfs/diskio.h)(0x54168D51)
+I (fatfs/integer.h)(0x54168D51)
+I (driverlib/pin_map.h)(0x54168D6D)
+F (.\FatFs\ff.c)(0x54168D51)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\ff.o --omf_browse .\ff.crf --depend .\ff.d)
+I (FatFs\ff.h)(0x54168D51)
+I (FatFs\integer.h)(0x54168D51)
+I (FatFs\ffconf.h)(0x54168D51)
+I (FatFs\diskio.h)(0x54168D51)
+I (D:\keilv5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+F (.\FatFs\ff.h)(0x54168D51)()
+F (.\FatFs\ffconf.h)(0x54168D51)()
+F (.\FatFs\integer.h)(0x54168D51)()
+F (.\FatFs\diskio.h)(0x54168D51)()
+F (.\uc1701.h)(0x54168D4F)()
+F (.\uc1701.c)(0x54168D4F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\uc1701.o --omf_browse .\uc1701.crf --depend .\uc1701.d)
+I (uc1701.h)(0x54168D4F)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (hw_uc1701.h)(0x54168D41)
+I (inc/hw_memmap.h)(0x54168D51)
+I (inc/hw_gpio.h)(0x54168D50)
+I (driverlib/rom_map.h)(0x54168D6D)
+I (driverlib/gpio.h)(0x54168D6C)
+I (driverlib/ssi.h)(0x54168D6D)
+F (.\hw_uc1701.h)(0x54168D41)()
+F (.\tlv320aic23b.h)(0x54168D43)()
+F (.\tlv320aic23b.c)(0x54168D43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\tlv320aic23b.o --omf_browse .\tlv320aic23b.crf --depend .\tlv320aic23b.d)
+I (inc/hw_memmap.h)(0x54168D51)
+I (inc/hw_types.h)(0x54168D51)
+I (tlv320aic23b.h)(0x54168D43)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (driverlib/gpio.h)(0x54168D6C)
+I (driverlib/i2c.h)(0x54168D6C)
+I (driverlib/sysctl.h)(0x54168D6D)
+F (.\gt20l16s1y.h)(0x54168D41)()
+F (.\gt20l16s1y.c)(0x54168D41)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\gt20l16s1y.o --omf_browse .\gt20l16s1y.crf --depend .\gt20l16s1y.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (hw_gt20l16s1y.h)(0x54168D41)
+I (gt20l16s1y.h)(0x54168D41)
+I (inc/hw_memmap.h)(0x54168D51)
+I (inc/hw_gpio.h)(0x54168D50)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (driverlib/rom_map.h)(0x54168D6D)
+I (driverlib/ssi.h)(0x54168D6D)
+I (driverlib/gpio.h)(0x54168D6C)
+F (.\hw_gt20l16s1y.h)(0x54168D41)()
+F (.\tmp100.h)(0x54168D4F)()
+F (.\tmp100.c)(0x54168D4F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\tmp100.o --omf_browse .\tmp100.crf --depend .\tmp100.d)
+I (D:\keilv5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (hw_tmp100.h)(0x54168D41)
+I (inc/hw_memmap.h)(0x54168D51)
+I (inc/hw_gpio.h)(0x54168D50)
+I (inc/hw_types.h)(0x54168D51)
+I (inc/hw_i2c.h)(0x54168D51)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (driverlib/rom_map.h)(0x54168D6D)
+I (driverlib/i2c.h)(0x54168D6C)
+I (tmp100.h)(0x54168D4F)
+F (.\dac7512.c)(0x54190171)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I. -IC:\ti\TivaWare_C_Series-2.0.1.11577 -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\include -IC:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F --c99-I D:\keilv5\ARM\RV31\INC-I D:\keilv5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I D:\keilv5\ARM\Inc\TI\TM4C123-DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -DUSE_DY_PB_2 -DUSE_DY_PB_3 -DUSE_DY_PB_FINAL -D_M4_FREERTOS -DTM4C123GH6PM-o .\dac7512.o --omf_browse .\dac7512.crf --depend .\dac7512.d)
+I (D:\keilv5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\keilv5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (inc/hw_ints.h)(0x54168D51)
+I (inc/hw_memmap.h)(0x54168D51)
+I (inc/hw_gpio.h)(0x54168D50)
+I (driverlib/sysctl.h)(0x54168D6D)
+I (driverlib/rom_map.h)(0x54168D6D)
+I (driverlib/ssi.h)(0x54168D6D)
+I (driverlib/gpio.h)(0x54168D6C)
+I (driverlib/timer.h)(0x54168D6D)
+I (driverlib/interrupt.h)(0x54168D6D)
+I (driverlib/udma.h)(0x54168D6D)
+I (dac7512.h)(0x54168D41)
+I (m4_common.h)(0x54168D43)
+I (FatFs/ff.h)(0x54168D51)
+I (FatFs/integer.h)(0x54168D51)
+I (FatFs/ffconf.h)(0x54168D51)
+I (m4_config.h)(0x54169B7B)
+F (.\dac7512.h)(0x54168D41)()
+F (.\u8glib\u8g_rect.c)(0x54168D50)()
+F (.\u8glib\u8g_circle.c)(0x54168D4F)()
+F (.\u8glib\u8g_arm.c)(0x54168D4F)()
+F (.\u8glib\u8g_clip.c)(0x54168D4F)()
+F (.\u8glib\u8g_com_api.c)(0x54168D4F)()
+F (.\u8glib\u8g_com_null.c)(0x54168D4F)()
+F (.\u8glib\u8g_dev_uc1701_mini12864.c)(0x54168D4F)()
+F (.\u8glib\u8g_font.c)(0x54168D4F)()
+F (.\u8glib\u8g_font_data.c)(0x54168D4F)()
+F (.\u8glib\u8g_ll_api.c)(0x54168D4F)()
+F (.\u8glib\u8g_page.c)(0x54168D4F)()
+F (.\u8glib\u8g_pb8v1.c)(0x54168D50)()
+F (.\u8glib\u8g_pb16v1.c)(0x54168D50)()
+F (.\u8glib\u8g_pb.c)(0x54168D50)()
+F (.\u8glib\u8g_state.c)(0x54168D50)()
+F (.\u8glib\u8g_arm.h)(0x54168D4F)()
+F (.\u8glib\u8g.h)(0x54168D4F)()
+F (.\u8glib\u8g_bitmap.c)(0x54168D4F)()
+F (.\m2tklib\m2esarmu8g.c)(0x54168D50)()
+F (.\m2tklib\m2align.c)(0x54168D50)()
+F (.\m2tklib\m2ghdummy.c)(0x54168D50)()
+F (.\m2tklib\m2.c)(0x54168D50)()
+F (.\m2tklib\m2.h)(0x54168D50)()
+F (.\m2tklib\m2dfs.c)(0x54168D50)()
+F (.\m2tklib\m2draw.c)(0x54168D50)()
+F (.\m2tklib\m2fnarg.c)(0x54168D50)()
+F (.\m2tklib\m2gfx.c)(0x54168D50)()
+F (.\m2tklib\m2key.c)(0x54168D50)()
+F (.\m2tklib\m2navinit.c)(0x54168D50)()
+F (.\m2tklib\m2navnext.c)(0x54168D50)()
+F (.\m2tklib\m2navroot.c)(0x54168D50)()
+F (.\m2tklib\m2navupdn.c)(0x54168D50)()
+F (.\m2tklib\m2navutl.c)(0x54168D50)()
+F (.\m2tklib\m2obj.c)(0x54168D50)()
+F (.\m2tklib\m2usrnext.c)(0x54168D50)()
+F (.\m2tklib\m2navfirst.c)(0x54168D50)()
+F (.\m2tklib\m2null.c)(0x54168D50)()
+F (.\m2tklib\m2rom.c)(0x54168D50)()
+F (.\m2tklib\m2elfnfmt.c)(0x54168D50)()
+F (.\m2tklib\m2opt.c)(0x54168D50)()
+F (.\m2tklib\m2ghu8gicon.c)(0x54168D50)()
+F (.\m2tklib\m2ghu8g.h)(0x54168D50)()
+F (.\m2tklib\m2ghu8gutl.c)(0x54168D50)()
+F (.\m2tklib\m2ellabel.c)(0x54168D50)()
+F (.\m2tklib\m2ghu8gbfs.c)(0x54168D50)()
+F (.\m2tklib\m2elsb.c)(0x54168D50)()
+F (.\m2tklib\m2elstr.c)(0x54168D50)()
+F (.\m2tklib\m2gfxutl.c)(0x54168D50)()
+F (.\m2tklib\m2elslbase.c)(0x54168D50)()
+F (.\m2tklib\m2ellistbase.c)(0x54168D50)()
+F (.\m2tklib\m2ellistv.c)(0x54168D50)()
+F (.\m2tklib\m2elsubutl.c)(0x54168D50)()
+F (.\m2tklib\m2ellistcalc.c)(0x54168D50)()
+F (.\m2tklib\m2eh2bs.c)(0x54168D50)()
+F (.\m2tklib\m2elu32.c)(0x54168D50)()
+F (.\m2tklib\m2navdataup.c)(0x54168D50)()
+F (.\m2tklib\m2navdatadn.c)(0x54168D50)()
+F (.\m2tklib\m2usrupdn.c)(0x54168D50)()
+F (.\m2tklib\m2pin.c)(0x54168D50)()
+F (.\m2tklib\m2elxbm.c)(0x54168D50)()
+F (.\m2tklib\m2ellisth.c)(0x54168D50)()
+F (.\m2tklib\m2elalign.c)(0x54168D50)()
+F (.\m2tklib\m2elroot.c)(0x54168D50)()
+F (C:\ti\TivaWare_C_Series-2.1.0.12573\driverlib\rvmdk\driverlib.lib)(0x53DB2F25)()
+F (.\RTX_Config.c)(0x54168D43)()
+F (.\m4_rtx.c)(0x54168D43)()
+F (C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\MemMang\heap_2.c)(0x00000000)()
+F (C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\list.c)(0x00000000)()
+F (C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c)(0x00000000)()
+F (C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\queue.c)(0x00000000)()
+F (C:\ti\TivaWare_C_Series-2.0.1.11577\third_party\FreeRTOS\Source\tasks.c)(0x00000000)()
+F (.\FreeRTOSConfig.h)(0x54168D41)()
+F (.\m4_freertos.c)(0x54168D43)()

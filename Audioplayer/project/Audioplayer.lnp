@@ -1,0 +1,15 @@
+--cpu Cortex-M4.fp
+".\main.o"
+".\sdc.o"
+".\tlv320aic23b.o"
+".\uc1701v.o"
+".\sound.o"
+"..\driverlib\driverlib.lib"
+".\startup_rvmdk.o"
+".\uartstdio.o"
+".\ustdlib.o"
+".\ff.o"
+--strict --scatter ".\Audioplayer.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Audioplayer.map" -o .\Audioplayer.axf
